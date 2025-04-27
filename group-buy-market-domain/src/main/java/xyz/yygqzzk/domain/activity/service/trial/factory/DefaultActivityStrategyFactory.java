@@ -7,6 +7,8 @@ import lombok.NoArgsConstructor;
 import org.springframework.stereotype.Service;
 import xyz.yygqzzk.domain.activity.model.entity.MarketProductEntity;
 import xyz.yygqzzk.domain.activity.model.entity.TrialBalanceEntity;
+import xyz.yygqzzk.domain.activity.model.valobj.GroupBuyActivityDiscountVO;
+import xyz.yygqzzk.domain.activity.model.valobj.SkuVO;
 import xyz.yygqzzk.domain.activity.service.trial.node.RootNode;
 import xyz.yygqzzk.types.design.framework.tree.StrategyHandler;
 
@@ -34,7 +36,8 @@ public class DefaultActivityStrategyFactory {
     @AllArgsConstructor
     @NoArgsConstructor
     public static class DynamicContext {
-
+        private GroupBuyActivityDiscountVO groupBuyActivityDiscountVO;
+        private SkuVO skuVO;
     }
 
 }

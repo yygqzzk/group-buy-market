@@ -8,9 +8,9 @@ import lombok.NoArgsConstructor;
 import java.util.Date;
 
 /**
- * @author Fuzhengwei bugstack.cn @小傅哥
+ * @author zzk
  * @description 折扣配置
- * @create 2024-12-07 10:06
+ * @create 2025-04-26 10:06
  */
 @Data
 @Builder

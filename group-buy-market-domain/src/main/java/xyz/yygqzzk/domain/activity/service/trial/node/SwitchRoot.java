@@ -8,6 +8,10 @@ import xyz.yygqzzk.domain.activity.service.trial.AbstractGroupBuyMarketSupport;
 import xyz.yygqzzk.domain.activity.service.trial.factory.DefaultActivityStrategyFactory;
 import xyz.yygqzzk.types.design.framework.tree.StrategyHandler;
 
+import javax.annotation.Resource;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.TimeoutException;
+
 /**
  * @author zzk
  * @version 1.0
@@ -17,14 +21,18 @@ import xyz.yygqzzk.types.design.framework.tree.StrategyHandler;
 @Slf4j
 @Service
 public class SwitchRoot extends AbstractGroupBuyMarketSupport<MarketProductEntity, DefaultActivityStrategyFactory.DynamicContext, TrialBalanceEntity> {
+
+    @Resource
+    private MarketNode marketNode;
+
     @Override
-    public TrialBalanceEntity apply(MarketProductEntity requestParameter, DefaultActivityStrategyFactory.DynamicContext dynamicContext) throws Exception {
-        return null;
+    protected TrialBalanceEntity doApply(MarketProductEntity requestParameter, DefaultActivityStrategyFactory.DynamicContext dynamicContext) throws Exception {
+        return router(requestParameter, dynamicContext);
     }
 
     @Override
-    public StrategyHandler<MarketProductEntity, DefaultActivityStrategyFactory.DynamicContext, TrialBalanceEntity> get(MarketProductEntity requestParameter, DefaultActivityStrategyFactory.DynamicContext dynamicContext) throws Exception {
-        return null;
+    public StrategyHandler<MarketProductEntity, DefaultActivityStrategyFactory.DynamicContext, TrialBalanceEntity> get(MarketProductEntity requestParameter, DefaultActivityStrategyFactory.DynamicContext dynamicParameter) throws Exception {
+        return marketNode;
     }
 }
 
