@@ -1,0 +1,1 @@
+package xyz.yygqzzk.domain.activity.service;
