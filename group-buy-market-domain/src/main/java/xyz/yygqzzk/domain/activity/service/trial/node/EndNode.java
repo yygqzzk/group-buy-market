@@ -31,7 +31,8 @@ public class EndNode extends AbstractGroupBuyMarketSupport<MarketProductEntity, 
     protected TrialBalanceEntity doApply(MarketProductEntity requestParameter, DefaultActivityStrategyFactory.DynamicContext dynamicContext) throws Exception {
         SkuVO skuVO = dynamicContext.getSkuVO();
         GroupBuyActivityDiscountVO groupBuyActivityDiscountVO = dynamicContext.getGroupBuyActivityDiscountVO();
-        // 返回空结果
+
+        // 返回商品经过营销活动后的试算结果
         return TrialBalanceEntity.builder()
                 .goodsId(skuVO.getGoodsId())
                 .goodsName(skuVO.getGoodsName())

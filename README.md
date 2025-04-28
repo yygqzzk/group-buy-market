@@ -13,3 +13,7 @@
 # 人群标签数据采集
 
 ![image-20250428094329731](https://yygqzzk.oss-cn-wuhan-lr.aliyuncs.com/typora-images/202504280944502.png)
+
+# 分库表
+
+![image-20250428155759147](https://yygqzzk.oss-cn-wuhan-lr.aliyuncs.com/typora-images/202504281558097.png)

@@ -1,6 +1,7 @@
 package xyz.yygqzzk.domain.activity.adapter.repository;
 
 import xyz.yygqzzk.domain.activity.model.valobj.GroupBuyActivityDiscountVO;
+import xyz.yygqzzk.domain.activity.model.valobj.SCSkuActivityVO;
 import xyz.yygqzzk.domain.activity.model.valobj.SkuVO;
 
 import java.util.List;
@@ -13,5 +14,7 @@ import java.util.List;
  */
 public interface IActivityRepository {
     SkuVO querySkuByGoodsId(String goodsId);
-    GroupBuyActivityDiscountVO queryValidGroupBuyActivity(String source, String channel);
+    GroupBuyActivityDiscountVO queryValidGroupBuyActivity(Long activityId);
+
+    SCSkuActivityVO querySCSkuActivityBySCGoodsId(String source, String channel, String goodsId);
 }

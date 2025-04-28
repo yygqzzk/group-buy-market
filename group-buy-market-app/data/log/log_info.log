@@ -1,0 +1,1211 @@
+25-04-28.09:22:02.061 [main            ] INFO  IIndexGroupBuyMarketServiceTest - Starting IIndexGroupBuyMarketServiceTest using Java 1.8.0_381 on zzk with PID 19532 (started by yygqzzk in H:\Code\group-buy-market\group-buy-market-yygqzzk\group-buy-market-app)
+25-04-28.09:22:02.062 [main            ] INFO  IIndexGroupBuyMarketServiceTest - The following 1 profile is active: "dev"
+25-04-28.09:22:03.439 [main            ] INFO  IIndexGroupBuyMarketServiceTest - Started IIndexGroupBuyMarketServiceTest in 1.724 seconds (JVM running for 2.424)
+25-04-28.09:22:03.726 [main            ] INFO  RootNode               - 拼团商品查询试算服务-RootNode userId:xiaofuge requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"xiaofuge"}
+25-04-28.09:22:03.751 [pool-2-thread-2 ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-04-28.09:22:04.914 [pool-2-thread-2 ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-04-28.09:22:05.091 [main            ] INFO  MarketNode             - 拼团商品查询试算服务-MarketNode userId:xiaofuge requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"xiaofuge"}
+25-04-28.09:22:05.091 [main            ] INFO  ZJCalculateService     - 优惠策略折扣计算:0
+25-04-28.09:22:05.091 [main            ] INFO  IIndexGroupBuyMarketServiceTest - 请求参数:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"xiaofuge"}
+25-04-28.09:22:05.097 [main            ] INFO  IIndexGroupBuyMarketServiceTest - 返回结果:{"deductionPrice":80.00,"endTime":1733566780000,"goodsId":"9890001","goodsName":"《手写MyBatis：渐进式源码实践》","isEnable":false,"isVisible":false,"originalPrice":100.00,"startTime":1733566780000,"targetCount":1}
+25-04-28.09:22:05.104 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-04-28.09:22:05.492 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-04-28.09:24:01.906 [main            ] INFO  IIndexGroupBuyMarketServiceTest - Starting IIndexGroupBuyMarketServiceTest using Java 1.8.0_381 on zzk with PID 24048 (started by yygqzzk in H:\Code\group-buy-market\group-buy-market-yygqzzk\group-buy-market-app)
+25-04-28.09:24:01.914 [main            ] INFO  IIndexGroupBuyMarketServiceTest - The following 1 profile is active: "dev"
+25-04-28.09:24:03.400 [main            ] INFO  IIndexGroupBuyMarketServiceTest - Started IIndexGroupBuyMarketServiceTest in 1.826 seconds (JVM running for 2.395)
+25-04-28.09:24:03.703 [main            ] INFO  RootNode               - 拼团商品查询试算服务-RootNode userId:xiaofuge requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"xiaofuge"}
+25-04-28.09:24:03.725 [pool-2-thread-2 ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-04-28.09:24:04.967 [pool-2-thread-2 ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-04-28.09:24:05.143 [main            ] INFO  MarketNode             - 拼团商品查询试算服务-MarketNode userId:xiaofuge requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"xiaofuge"}
+25-04-28.09:24:05.144 [main            ] INFO  ZJCalculateService     - 优惠策略折扣计算:0
+25-04-28.09:24:05.144 [main            ] INFO  IIndexGroupBuyMarketServiceTest - 请求参数:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"xiaofuge"}
+25-04-28.09:24:05.152 [main            ] INFO  IIndexGroupBuyMarketServiceTest - 返回结果:{"deductionPrice":80.00,"endTime":1733566780000,"goodsId":"9890001","goodsName":"《手写MyBatis：渐进式源码实践》","isEnable":false,"isVisible":false,"originalPrice":100.00,"startTime":1733566780000,"targetCount":1}
+25-04-28.09:24:05.162 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-04-28.09:24:05.533 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-04-28.09:24:19.541 [main            ] INFO  IIndexGroupBuyMarketServiceTest - Starting IIndexGroupBuyMarketServiceTest using Java 1.8.0_381 on zzk with PID 36596 (started by yygqzzk in H:\Code\group-buy-market\group-buy-market-yygqzzk\group-buy-market-app)
+25-04-28.09:24:19.549 [main            ] INFO  IIndexGroupBuyMarketServiceTest - The following 1 profile is active: "dev"
+25-04-28.09:24:21.062 [main            ] INFO  IIndexGroupBuyMarketServiceTest - Started IIndexGroupBuyMarketServiceTest in 1.895 seconds (JVM running for 2.453)
+25-04-28.09:24:21.330 [main            ] INFO  RootNode               - 拼团商品查询试算服务-RootNode userId:xiaofuge requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"xiaofuge"}
+25-04-28.09:24:21.351 [pool-2-thread-1 ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-04-28.09:24:22.519 [pool-2-thread-1 ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-04-28.09:24:22.699 [main            ] INFO  MarketNode             - 拼团商品查询试算服务-MarketNode userId:xiaofuge requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"xiaofuge"}
+25-04-28.09:24:22.699 [main            ] INFO  MJCalculateService     - 优惠策略折扣计算:0
+25-04-28.09:24:22.699 [main            ] INFO  IIndexGroupBuyMarketServiceTest - 请求参数:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"xiaofuge"}
+25-04-28.09:24:22.706 [main            ] INFO  IIndexGroupBuyMarketServiceTest - 返回结果:{"deductionPrice":90.00,"endTime":1733566780000,"goodsId":"9890001","goodsName":"《手写MyBatis：渐进式源码实践》","isEnable":false,"isVisible":false,"originalPrice":100.00,"startTime":1733566780000,"targetCount":1}
+25-04-28.09:24:22.714 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-04-28.09:24:23.073 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-04-28.09:25:11.085 [main            ] INFO  IIndexGroupBuyMarketServiceTest - Starting IIndexGroupBuyMarketServiceTest using Java 1.8.0_381 on zzk with PID 10904 (started by yygqzzk in H:\Code\group-buy-market\group-buy-market-yygqzzk\group-buy-market-app)
+25-04-28.09:25:11.086 [main            ] INFO  IIndexGroupBuyMarketServiceTest - The following 1 profile is active: "dev"
+25-04-28.09:25:12.753 [main            ] INFO  IIndexGroupBuyMarketServiceTest - Started IIndexGroupBuyMarketServiceTest in 2.002 seconds (JVM running for 2.966)
+25-04-28.09:25:13.084 [main            ] INFO  RootNode               - 拼团商品查询试算服务-RootNode userId:xiaofuge requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"xiaofuge"}
+25-04-28.09:30:13.625 [pool-2-thread-2 ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-04-28.14:20:05.467 [main            ] INFO  ITagServiceTest        - Starting ITagServiceTest using Java 1.8.0_381 on zzk with PID 38964 (started by yygqzzk in H:\Code\group-buy-market\group-buy-market-yygqzzk\group-buy-market-app)
+25-04-28.14:20:05.469 [main            ] INFO  ITagServiceTest        - The following 1 profile is active: "dev"
+25-04-28.14:20:06.125 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-28.14:20:06.127 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-28.14:20:06.154 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+25-04-28.14:20:07.204 [main            ] INFO  Version                - Redisson 3.26.0
+25-04-28.14:20:08.168 [redisson-netty-1-9] INFO  ConnectionsHolder      - 1 connections initialized for yygqzzk.xyz/47.122.114.115:6379
+25-04-28.14:20:08.437 [redisson-netty-1-14] INFO  ConnectionsHolder      - 5 connections initialized for yygqzzk.xyz/47.122.114.115:6379
+25-04-28.14:20:09.714 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-04-28.14:20:09.752 [main            ] INFO  ITagServiceTest        - Started ITagServiceTest in 4.676 seconds (JVM running for 5.477)
+25-04-28.14:20:09.940 [main            ] INFO  ITagServiceTest        - zzk 存在，预期结果为 true，测试结果:false
+25-04-28.14:20:09.982 [main            ] INFO  ITagServiceTest        - gudebai 不存在，预期结果为 false，测试结果:false
+25-04-28.14:20:09.989 [main            ] INFO  TagServiceImpl         - 人群标签批次任务 tagId:RQ_KJHKL98UU78H66554GFDV batchId:10001
+25-04-28.14:20:10.010 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-04-28.14:20:11.231 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-04-28.14:20:16.475 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-04-28.14:20:16.666 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-04-28.14:21:15.028 [main            ] INFO  ITagServiceTest        - Starting ITagServiceTest using Java 1.8.0_381 on zzk with PID 37424 (started by yygqzzk in H:\Code\group-buy-market\group-buy-market-yygqzzk\group-buy-market-app)
+25-04-28.14:21:15.029 [main            ] INFO  ITagServiceTest        - The following 1 profile is active: "dev"
+25-04-28.14:21:15.853 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-28.14:21:15.856 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-28.14:21:15.883 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+25-04-28.14:21:17.332 [main            ] INFO  Version                - Redisson 3.26.0
+25-04-28.14:21:25.173 [redisson-netty-1-19] INFO  ConnectionsHolder      - 5 connections initialized for yygqzzk.xyz/47.122.114.115:6379
+25-04-28.14:21:27.742 [redisson-netty-1-26] INFO  ConnectionsHolder      - 1 connections initialized for yygqzzk.xyz/47.122.114.115:6379
+25-04-28.14:21:28.509 [redisson-netty-1-2] INFO  ConnectionsHolder      - 5 connections initialized for yygqzzk.xyz/47.122.114.115:6379
+25-04-28.14:21:30.103 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-04-28.14:21:30.147 [main            ] INFO  ITagServiceTest        - Started ITagServiceTest in 15.517 seconds (JVM running for 16.72)
+25-04-28.14:21:38.309 [main            ] INFO  TagServiceImpl         - 人群标签批次任务 tagId:RQ_KJHKL98UU78H66554GFDV batchId:10001
+25-04-28.14:21:56.014 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-04-28.14:22:45.142 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-04-28.14:24:50.627 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m5s376ms743µs200ns).
+25-04-28.14:26:41.741 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m51s112ms618µs100ns).
+25-04-28.14:27:16.958 [main            ] WARN  PoolBase               - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@55a07f97 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+25-04-28.14:28:48.165 [HikariPool-1 housekeeper] WARN  HikariPool             - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m32s56ms384µs200ns).
+25-04-28.14:28:52.672 [redisson-timer-4-1] ERROR PingConnectionHandler  - Unable to send PING command over channel: [id: 0xed130ea1, L:/10.16.56.244:7983 - R:yygqzzk.xyz/47.122.114.115:6379]
+org.redisson.client.RedisTimeoutException: Command execution timeout for command: (PING), params: [], Redis client: [addr=redis://yygqzzk.xyz:6379]
+	at org.redisson.client.RedisConnection.lambda$async$0(RedisConnection.java:253)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)
+	at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+25-04-28.14:28:52.673 [redisson-timer-4-1] ERROR PingConnectionHandler  - Unable to send PING command over channel: [id: 0x7a2b2bdd, L:/10.16.56.244:7984 - R:yygqzzk.xyz/47.122.114.115:6379]
+org.redisson.client.RedisTimeoutException: Command execution timeout for command: (PING), params: [], Redis client: [addr=redis://yygqzzk.xyz:6379]
+	at org.redisson.client.RedisConnection.lambda$async$0(RedisConnection.java:253)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)
+	at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+25-04-28.14:28:52.673 [redisson-timer-4-1] ERROR PingConnectionHandler  - Unable to send PING command over channel: [id: 0x4f0d8ef4, L:/10.16.56.244:7986 - R:yygqzzk.xyz/47.122.114.115:6379]
+org.redisson.client.RedisTimeoutException: Command execution timeout for command: (PING), params: [], Redis client: [addr=redis://yygqzzk.xyz:6379]
+	at org.redisson.client.RedisConnection.lambda$async$0(RedisConnection.java:253)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)
+	at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+25-04-28.14:28:52.674 [redisson-timer-4-1] ERROR PingConnectionHandler  - Unable to send PING command over channel: [id: 0x72b6bcef, L:/10.16.56.244:7989 - R:yygqzzk.xyz/47.122.114.115:6379]
+org.redisson.client.RedisTimeoutException: Command execution timeout for command: (PING), params: [], Redis client: [addr=redis://yygqzzk.xyz:6379]
+	at org.redisson.client.RedisConnection.lambda$async$0(RedisConnection.java:253)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)
+	at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+25-04-28.14:28:52.674 [redisson-timer-4-1] ERROR PingConnectionHandler  - Unable to send PING command over channel: [id: 0x87878994, L:/10.16.56.244:7990 - R:yygqzzk.xyz/47.122.114.115:6379]
+org.redisson.client.RedisTimeoutException: Command execution timeout for command: (PING), params: [], Redis client: [addr=redis://yygqzzk.xyz:6379]
+	at org.redisson.client.RedisConnection.lambda$async$0(RedisConnection.java:253)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)
+	at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+25-04-28.14:28:52.676 [redisson-timer-4-1] ERROR PingConnectionHandler  - Unable to send PING command over channel: [id: 0x1224fc16, L:/10.16.56.244:7991 - R:yygqzzk.xyz/47.122.114.115:6379]
+org.redisson.client.RedisTimeoutException: Command execution timeout for command: (PING), params: [], Redis client: [addr=redis://yygqzzk.xyz:6379]
+	at org.redisson.client.RedisConnection.lambda$async$0(RedisConnection.java:253)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)
+	at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+25-04-28.14:28:55.891 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-04-28.14:29:20.419 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-04-28.14:29:22.932 [main            ] INFO  ITagServiceTest        - Starting ITagServiceTest using Java 1.8.0_381 on zzk with PID 20108 (started by yygqzzk in H:\Code\group-buy-market\group-buy-market-yygqzzk\group-buy-market-app)
+25-04-28.14:29:22.933 [main            ] INFO  ITagServiceTest        - The following 1 profile is active: "dev"
+25-04-28.14:29:23.760 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-28.14:29:23.764 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-28.14:29:23.794 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+25-04-28.14:29:25.172 [main            ] INFO  Version                - Redisson 3.26.0
+25-04-28.14:29:41.067 [main            ] WARN  GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tagServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tagRepository' defined in file [H:\Code\group-buy-market\group-buy-market-yygqzzk\group-buy-market-infrastructure\target\classes\xyz\yygqzzk\infrastructure\adapter\repository\TagRepository.class]: Unsatisfied dependency expressed through constructor parameter 3; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [xyz/yygqzzk/config/RedisClientConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: yygqzzk.xyz/47.122.114.115:6379
+25-04-28.14:29:41.076 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+25-04-28.14:29:41.097 [main            ] ERROR SpringApplication      - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tagServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tagRepository' defined in file [H:\Code\group-buy-market\group-buy-market-yygqzzk\group-buy-market-infrastructure\target\classes\xyz\yygqzzk\infrastructure\adapter\repository\TagRepository.class]: Unsatisfied dependency expressed through constructor parameter 3; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [xyz/yygqzzk/config/RedisClientConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: yygqzzk.xyz/47.122.114.115:6379
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:136)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:141)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:90)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tagRepository' defined in file [H:\Code\group-buy-market\group-buy-market-yygqzzk\group-buy-market-infrastructure\target\classes\xyz\yygqzzk\infrastructure\adapter\repository\TagRepository.class]: Unsatisfied dependency expressed through constructor parameter 3; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [xyz/yygqzzk/config/RedisClientConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: yygqzzk.xyz/47.122.114.115:6379
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 43 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [xyz/yygqzzk/config/RedisClientConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: yygqzzk.xyz/47.122.114.115:6379
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 59 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [xyz/yygqzzk/config/RedisClientConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: yygqzzk.xyz/47.122.114.115:6379
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 71 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: yygqzzk.xyz/47.122.114.115:6379
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 87 common frames omitted
+Caused by: org.redisson.client.RedisConnectionException: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: yygqzzk.xyz/47.122.114.115:6379
+	at org.redisson.connection.MasterSlaveConnectionManager.doConnect(MasterSlaveConnectionManager.java:229)
+	at org.redisson.connection.MasterSlaveConnectionManager.connect(MasterSlaveConnectionManager.java:196)
+	at org.redisson.config.ConfigSupport.createConnectionManager(ConfigSupport.java:220)
+	at org.redisson.Redisson.<init>(Redisson.java:71)
+	at org.redisson.Redisson.create(Redisson.java:116)
+	at xyz.yygqzzk.config.RedisClientConfig.redissonClient(RedisClientConfig.java:54)
+	at xyz.yygqzzk.config.RedisClientConfig$$EnhancerBySpringCGLIB$$155942a8.CGLIB$redissonClient$0(<generated>)
+	at xyz.yygqzzk.config.RedisClientConfig$$EnhancerBySpringCGLIB$$155942a8$$FastClassBySpringCGLIB$$f6dd3c58.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at xyz.yygqzzk.config.RedisClientConfig$$EnhancerBySpringCGLIB$$155942a8.redissonClient(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 88 common frames omitted
+Caused by: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: yygqzzk.xyz/47.122.114.115:6379
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
+	at org.redisson.connection.MasterSlaveConnectionManager.doConnect(MasterSlaveConnectionManager.java:225)
+	... 103 common frames omitted
+Caused by: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: yygqzzk.xyz/47.122.114.115:6379
+	at org.redisson.connection.ConnectionsHolder.lambda$createConnection$1(ConnectionsHolder.java:183)
+	at java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:774)
+	at java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:750)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at org.redisson.connection.ConnectionsHolder.promiseFailure(ConnectionsHolder.java:218)
+	at org.redisson.connection.ConnectionsHolder.lambda$createConnection$4(ConnectionsHolder.java:204)
+	at java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:774)
+	at java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:750)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at org.redisson.client.RedisClient$1$1.run(RedisClient.java:299)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask$$$capture(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.util.concurrent.CompletionException: org.redisson.client.RedisTimeoutException: Command execution timeout for command: (AUTH), params: (password masked), Redis client: [addr=redis://yygqzzk.xyz:6379]
+	at java.util.concurrent.CompletableFuture.encodeRelay(CompletableFuture.java:326)
+	at java.util.concurrent.CompletableFuture.completeRelay(CompletableFuture.java:338)
+	at java.util.concurrent.CompletableFuture.uniRelay(CompletableFuture.java:925)
+	at java.util.concurrent.CompletableFuture$UniRelay.tryFire(CompletableFuture.java:913)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at org.redisson.client.RedisConnection.lambda$async$0(RedisConnection.java:254)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)
+	at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
+	... 2 common frames omitted
+Caused by: org.redisson.client.RedisTimeoutException: Command execution timeout for command: (AUTH), params: (password masked), Redis client: [addr=redis://yygqzzk.xyz:6379]
+	at org.redisson.client.RedisConnection.lambda$async$0(RedisConnection.java:253)
+	... 7 common frames omitted
+25-04-28.14:29:41.099 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@5e3d57c7] to prepare test instance [xyz.yygqzzk.test.tag.ITagServiceTest@7805478c]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tagServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tagRepository' defined in file [H:\Code\group-buy-market\group-buy-market-yygqzzk\group-buy-market-infrastructure\target\classes\xyz\yygqzzk\infrastructure\adapter\repository\TagRepository.class]: Unsatisfied dependency expressed through constructor parameter 3; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [xyz/yygqzzk/config/RedisClientConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: yygqzzk.xyz/47.122.114.115:6379
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:136)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:141)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:90)
+	... 27 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tagRepository' defined in file [H:\Code\group-buy-market\group-buy-market-yygqzzk\group-buy-market-infrastructure\target\classes\xyz\yygqzzk\infrastructure\adapter\repository\TagRepository.class]: Unsatisfied dependency expressed through constructor parameter 3; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [xyz/yygqzzk/config/RedisClientConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: yygqzzk.xyz/47.122.114.115:6379
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 43 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [xyz/yygqzzk/config/RedisClientConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: yygqzzk.xyz/47.122.114.115:6379
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 59 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [xyz/yygqzzk/config/RedisClientConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: yygqzzk.xyz/47.122.114.115:6379
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 71 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: yygqzzk.xyz/47.122.114.115:6379
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 87 common frames omitted
+Caused by: org.redisson.client.RedisConnectionException: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: yygqzzk.xyz/47.122.114.115:6379
+	at org.redisson.connection.MasterSlaveConnectionManager.doConnect(MasterSlaveConnectionManager.java:229)
+	at org.redisson.connection.MasterSlaveConnectionManager.connect(MasterSlaveConnectionManager.java:196)
+	at org.redisson.config.ConfigSupport.createConnectionManager(ConfigSupport.java:220)
+	at org.redisson.Redisson.<init>(Redisson.java:71)
+	at org.redisson.Redisson.create(Redisson.java:116)
+	at xyz.yygqzzk.config.RedisClientConfig.redissonClient(RedisClientConfig.java:54)
+	at xyz.yygqzzk.config.RedisClientConfig$$EnhancerBySpringCGLIB$$155942a8.CGLIB$redissonClient$0(<generated>)
+	at xyz.yygqzzk.config.RedisClientConfig$$EnhancerBySpringCGLIB$$155942a8$$FastClassBySpringCGLIB$$f6dd3c58.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at xyz.yygqzzk.config.RedisClientConfig$$EnhancerBySpringCGLIB$$155942a8.redissonClient(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 88 common frames omitted
+Caused by: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: yygqzzk.xyz/47.122.114.115:6379
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
+	at org.redisson.connection.MasterSlaveConnectionManager.doConnect(MasterSlaveConnectionManager.java:225)
+	... 103 common frames omitted
+Caused by: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: yygqzzk.xyz/47.122.114.115:6379
+	at org.redisson.connection.ConnectionsHolder.lambda$createConnection$1(ConnectionsHolder.java:183)
+	at java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:774)
+	at java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:750)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at org.redisson.connection.ConnectionsHolder.promiseFailure(ConnectionsHolder.java:218)
+	at org.redisson.connection.ConnectionsHolder.lambda$createConnection$4(ConnectionsHolder.java:204)
+	at java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:774)
+	at java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:750)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at org.redisson.client.RedisClient$1$1.run(RedisClient.java:299)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask$$$capture(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.util.concurrent.CompletionException: org.redisson.client.RedisTimeoutException: Command execution timeout for command: (AUTH), params: (password masked), Redis client: [addr=redis://yygqzzk.xyz:6379]
+	at java.util.concurrent.CompletableFuture.encodeRelay(CompletableFuture.java:326)
+	at java.util.concurrent.CompletableFuture.completeRelay(CompletableFuture.java:338)
+	at java.util.concurrent.CompletableFuture.uniRelay(CompletableFuture.java:925)
+	at java.util.concurrent.CompletableFuture$UniRelay.tryFire(CompletableFuture.java:913)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at org.redisson.client.RedisConnection.lambda$async$0(RedisConnection.java:254)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)
+	at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
+	... 2 common frames omitted
+Caused by: org.redisson.client.RedisTimeoutException: Command execution timeout for command: (AUTH), params: (password masked), Redis client: [addr=redis://yygqzzk.xyz:6379]
+	at org.redisson.client.RedisConnection.lambda$async$0(RedisConnection.java:253)
+	... 7 common frames omitted
+25-04-28.14:30:17.628 [main            ] INFO  ITagServiceTest        - Starting ITagServiceTest using Java 1.8.0_381 on zzk with PID 21604 (started by yygqzzk in H:\Code\group-buy-market\group-buy-market-yygqzzk\group-buy-market-app)
+25-04-28.14:30:17.629 [main            ] INFO  ITagServiceTest        - The following 1 profile is active: "dev"
+25-04-28.14:30:18.502 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-28.14:30:18.506 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-28.14:30:18.534 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+25-04-28.14:30:19.908 [main            ] INFO  Version                - Redisson 3.26.0
+25-04-28.14:30:35.842 [main            ] WARN  GenericWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tagServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tagRepository' defined in file [H:\Code\group-buy-market\group-buy-market-yygqzzk\group-buy-market-infrastructure\target\classes\xyz\yygqzzk\infrastructure\adapter\repository\TagRepository.class]: Unsatisfied dependency expressed through constructor parameter 3; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [xyz/yygqzzk/config/RedisClientConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: yygqzzk.xyz/47.122.114.115:6379
+25-04-28.14:30:35.855 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+25-04-28.14:30:35.871 [main            ] ERROR SpringApplication      - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tagServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tagRepository' defined in file [H:\Code\group-buy-market\group-buy-market-yygqzzk\group-buy-market-infrastructure\target\classes\xyz\yygqzzk\infrastructure\adapter\repository\TagRepository.class]: Unsatisfied dependency expressed through constructor parameter 3; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [xyz/yygqzzk/config/RedisClientConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: yygqzzk.xyz/47.122.114.115:6379
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:136)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:141)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:90)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tagRepository' defined in file [H:\Code\group-buy-market\group-buy-market-yygqzzk\group-buy-market-infrastructure\target\classes\xyz\yygqzzk\infrastructure\adapter\repository\TagRepository.class]: Unsatisfied dependency expressed through constructor parameter 3; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [xyz/yygqzzk/config/RedisClientConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: yygqzzk.xyz/47.122.114.115:6379
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 43 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [xyz/yygqzzk/config/RedisClientConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: yygqzzk.xyz/47.122.114.115:6379
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 59 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [xyz/yygqzzk/config/RedisClientConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: yygqzzk.xyz/47.122.114.115:6379
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 71 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: yygqzzk.xyz/47.122.114.115:6379
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 87 common frames omitted
+Caused by: org.redisson.client.RedisConnectionException: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: yygqzzk.xyz/47.122.114.115:6379
+	at org.redisson.connection.MasterSlaveConnectionManager.doConnect(MasterSlaveConnectionManager.java:229)
+	at org.redisson.connection.MasterSlaveConnectionManager.connect(MasterSlaveConnectionManager.java:196)
+	at org.redisson.config.ConfigSupport.createConnectionManager(ConfigSupport.java:220)
+	at org.redisson.Redisson.<init>(Redisson.java:71)
+	at org.redisson.Redisson.create(Redisson.java:116)
+	at xyz.yygqzzk.config.RedisClientConfig.redissonClient(RedisClientConfig.java:54)
+	at xyz.yygqzzk.config.RedisClientConfig$$EnhancerBySpringCGLIB$$12c96ec7.CGLIB$redissonClient$0(<generated>)
+	at xyz.yygqzzk.config.RedisClientConfig$$EnhancerBySpringCGLIB$$12c96ec7$$FastClassBySpringCGLIB$$a6ab1f95.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at xyz.yygqzzk.config.RedisClientConfig$$EnhancerBySpringCGLIB$$12c96ec7.redissonClient(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 88 common frames omitted
+Caused by: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: yygqzzk.xyz/47.122.114.115:6379
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
+	at org.redisson.connection.MasterSlaveConnectionManager.doConnect(MasterSlaveConnectionManager.java:225)
+	... 103 common frames omitted
+Caused by: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: yygqzzk.xyz/47.122.114.115:6379
+	at org.redisson.connection.ConnectionsHolder.lambda$createConnection$1(ConnectionsHolder.java:183)
+	at java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:774)
+	at java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:750)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at org.redisson.connection.ConnectionsHolder.promiseFailure(ConnectionsHolder.java:218)
+	at org.redisson.connection.ConnectionsHolder.lambda$createConnection$4(ConnectionsHolder.java:204)
+	at java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:774)
+	at java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:750)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at org.redisson.client.RedisClient$1$1.run(RedisClient.java:299)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask$$$capture(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.util.concurrent.CompletionException: org.redisson.client.RedisTimeoutException: Command execution timeout for command: (AUTH), params: (password masked), Redis client: [addr=redis://yygqzzk.xyz:6379]
+	at java.util.concurrent.CompletableFuture.encodeRelay(CompletableFuture.java:326)
+	at java.util.concurrent.CompletableFuture.completeRelay(CompletableFuture.java:338)
+	at java.util.concurrent.CompletableFuture.uniRelay(CompletableFuture.java:925)
+	at java.util.concurrent.CompletableFuture$UniRelay.tryFire(CompletableFuture.java:913)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at org.redisson.client.RedisConnection.lambda$async$0(RedisConnection.java:254)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)
+	at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
+	... 2 common frames omitted
+Caused by: org.redisson.client.RedisTimeoutException: Command execution timeout for command: (AUTH), params: (password masked), Redis client: [addr=redis://yygqzzk.xyz:6379]
+	at org.redisson.client.RedisConnection.lambda$async$0(RedisConnection.java:253)
+	... 7 common frames omitted
+25-04-28.14:30:35.873 [main            ] ERROR TestContextManager     - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@5e3d57c7] to prepare test instance [xyz.yygqzzk.test.tag.ITagServiceTest@309cf657]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:98)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tagServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tagRepository' defined in file [H:\Code\group-buy-market\group-buy-market-yygqzzk\group-buy-market-infrastructure\target\classes\xyz\yygqzzk\infrastructure\adapter\repository\TagRepository.class]: Unsatisfied dependency expressed through constructor parameter 3; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [xyz/yygqzzk/config/RedisClientConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: yygqzzk.xyz/47.122.114.115:6379
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:136)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:141)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:90)
+	... 27 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tagRepository' defined in file [H:\Code\group-buy-market\group-buy-market-yygqzzk\group-buy-market-infrastructure\target\classes\xyz\yygqzzk\infrastructure\adapter\repository\TagRepository.class]: Unsatisfied dependency expressed through constructor parameter 3; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [xyz/yygqzzk/config/RedisClientConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: yygqzzk.xyz/47.122.114.115:6379
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 43 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [xyz/yygqzzk/config/RedisClientConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: yygqzzk.xyz/47.122.114.115:6379
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 59 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redissonClient' defined in class path resource [xyz/yygqzzk/config/RedisClientConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: yygqzzk.xyz/47.122.114.115:6379
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 71 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redissonClient' threw exception; nested exception is org.redisson.client.RedisConnectionException: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: yygqzzk.xyz/47.122.114.115:6379
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 87 common frames omitted
+Caused by: org.redisson.client.RedisConnectionException: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: yygqzzk.xyz/47.122.114.115:6379
+	at org.redisson.connection.MasterSlaveConnectionManager.doConnect(MasterSlaveConnectionManager.java:229)
+	at org.redisson.connection.MasterSlaveConnectionManager.connect(MasterSlaveConnectionManager.java:196)
+	at org.redisson.config.ConfigSupport.createConnectionManager(ConfigSupport.java:220)
+	at org.redisson.Redisson.<init>(Redisson.java:71)
+	at org.redisson.Redisson.create(Redisson.java:116)
+	at xyz.yygqzzk.config.RedisClientConfig.redissonClient(RedisClientConfig.java:54)
+	at xyz.yygqzzk.config.RedisClientConfig$$EnhancerBySpringCGLIB$$12c96ec7.CGLIB$redissonClient$0(<generated>)
+	at xyz.yygqzzk.config.RedisClientConfig$$EnhancerBySpringCGLIB$$12c96ec7$$FastClassBySpringCGLIB$$a6ab1f95.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at xyz.yygqzzk.config.RedisClientConfig$$EnhancerBySpringCGLIB$$12c96ec7.redissonClient(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 88 common frames omitted
+Caused by: java.util.concurrent.ExecutionException: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: yygqzzk.xyz/47.122.114.115:6379
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
+	at org.redisson.connection.MasterSlaveConnectionManager.doConnect(MasterSlaveConnectionManager.java:225)
+	... 103 common frames omitted
+Caused by: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: yygqzzk.xyz/47.122.114.115:6379
+	at org.redisson.connection.ConnectionsHolder.lambda$createConnection$1(ConnectionsHolder.java:183)
+	at java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:774)
+	at java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:750)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at org.redisson.connection.ConnectionsHolder.promiseFailure(ConnectionsHolder.java:218)
+	at org.redisson.connection.ConnectionsHolder.lambda$createConnection$4(ConnectionsHolder.java:204)
+	at java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:774)
+	at java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:750)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at org.redisson.client.RedisClient$1$1.run(RedisClient.java:299)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask$$$capture(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.util.concurrent.CompletionException: org.redisson.client.RedisTimeoutException: Command execution timeout for command: (AUTH), params: (password masked), Redis client: [addr=redis://yygqzzk.xyz:6379]
+	at java.util.concurrent.CompletableFuture.encodeRelay(CompletableFuture.java:326)
+	at java.util.concurrent.CompletableFuture.completeRelay(CompletableFuture.java:338)
+	at java.util.concurrent.CompletableFuture.uniRelay(CompletableFuture.java:925)
+	at java.util.concurrent.CompletableFuture$UniRelay.tryFire(CompletableFuture.java:913)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at org.redisson.client.RedisConnection.lambda$async$0(RedisConnection.java:254)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)
+	at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
+	... 2 common frames omitted
+Caused by: org.redisson.client.RedisTimeoutException: Command execution timeout for command: (AUTH), params: (password masked), Redis client: [addr=redis://yygqzzk.xyz:6379]
+	at org.redisson.client.RedisConnection.lambda$async$0(RedisConnection.java:253)
+	... 7 common frames omitted
+25-04-28.14:50:17.850 [main            ] INFO  ITagServiceTest        - Starting ITagServiceTest using Java 1.8.0_381 on zzk with PID 40992 (started by yygqzzk in H:\Code\group-buy-market\group-buy-market-yygqzzk\group-buy-market-app)
+25-04-28.14:50:17.852 [main            ] INFO  ITagServiceTest        - The following 1 profile is active: "dev"
+25-04-28.14:50:18.596 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-28.14:50:18.600 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-28.14:50:18.632 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+25-04-28.14:50:20.040 [main            ] INFO  Version                - Redisson 3.26.0
+25-04-28.14:50:20.680 [redisson-netty-1-9] INFO  ConnectionsHolder      - 1 connections initialized for yygqzzk.xyz/47.122.114.115:6379
+25-04-28.14:50:20.960 [redisson-netty-1-14] INFO  ConnectionsHolder      - 5 connections initialized for yygqzzk.xyz/47.122.114.115:6379
+25-04-28.14:50:22.396 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-04-28.14:50:22.445 [main            ] INFO  ITagServiceTest        - Started ITagServiceTest in 5.11 seconds (JVM running for 6.005)
+25-04-28.14:50:29.368 [main            ] INFO  TagServiceImpl         - 人群标签批次任务 tagId:RQ_KJHKL98UU78H66554GFDV batchId:10001
+25-04-28.14:50:32.070 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-04-28.14:50:35.804 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-04-28.14:52:07.055 [HikariPool-1 connection adder] ERROR HikariPool             - HikariPool-1 - Error thrown while acquiring connection from data source
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 34,506 milliseconds ago. The last packet sent successfully to the server was 36,372 milliseconds ago.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.isReadOnly(ConnectionImpl.java:1422)
+	at com.mysql.cj.jdbc.ConnectionImpl.isReadOnly(ConnectionImpl.java:1407)
+	at com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:408)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:712)
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
+	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 34,506 milliseconds ago. The last packet sent successfully to the server was 36,372 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:544)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:708)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:647)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:134)
+	at com.mysql.cj.NativeSession.sendCommand(NativeSession.java:311)
+	at com.mysql.cj.NativeSession.queryServerVariable(NativeSession.java:1008)
+	at com.mysql.cj.jdbc.ConnectionImpl.isReadOnly(ConnectionImpl.java:1414)
+	... 13 common frames omitted
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:475)
+	at sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:469)
+	at sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:69)
+	at sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1271)
+	at sun.security.ssl.SSLSocketImpl.access$300(SSLSocketImpl.java:76)
+	at sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:948)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:538)
+	... 19 common frames omitted
+25-04-28.14:52:11.601 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-04-28.14:52:11.995 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-04-28.14:55:59.892 [main            ] INFO  ITagServiceTest        - Starting ITagServiceTest using Java 1.8.0_381 on zzk with PID 17388 (started by yygqzzk in H:\Code\group-buy-market\group-buy-market-yygqzzk\group-buy-market-app)
+25-04-28.14:55:59.900 [main            ] INFO  ITagServiceTest        - The following 1 profile is active: "dev"
+25-04-28.14:56:00.680 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-28.14:56:00.685 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-28.14:56:00.721 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+25-04-28.14:56:01.941 [main            ] INFO  Version                - Redisson 3.26.0
+25-04-28.14:56:02.534 [redisson-netty-1-9] INFO  ConnectionsHolder      - 1 connections initialized for yygqzzk.xyz/47.122.114.115:6379
+25-04-28.14:56:02.795 [redisson-netty-1-14] INFO  ConnectionsHolder      - 5 connections initialized for yygqzzk.xyz/47.122.114.115:6379
+25-04-28.14:56:04.125 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-04-28.14:56:04.165 [main            ] INFO  ITagServiceTest        - Started ITagServiceTest in 4.608 seconds (JVM running for 5.217)
+25-04-28.14:56:04.319 [main            ] INFO  TagServiceImpl         - 人群标签批次任务 tagId:RQ_KJHKL98UU78H66554GFDV batchId:10001
+25-04-28.14:56:04.340 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-04-28.14:56:05.340 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-04-28.14:56:05.925 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-04-28.14:56:06.020 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-04-28.14:59:19.461 [main            ] INFO  ITagServiceTest        - Starting ITagServiceTest using Java 1.8.0_381 on zzk with PID 39268 (started by yygqzzk in H:\Code\group-buy-market\group-buy-market-yygqzzk\group-buy-market-app)
+25-04-28.14:59:19.462 [main            ] INFO  ITagServiceTest        - The following 1 profile is active: "dev"
+25-04-28.14:59:20.338 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-28.14:59:20.343 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-28.14:59:20.381 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+25-04-28.14:59:21.755 [main            ] INFO  Version                - Redisson 3.26.0
+25-04-28.14:59:22.394 [redisson-netty-1-7] INFO  ConnectionsHolder      - 1 connections initialized for yygqzzk.xyz/47.122.114.115:6379
+25-04-28.14:59:22.698 [redisson-netty-1-14] INFO  ConnectionsHolder      - 5 connections initialized for yygqzzk.xyz/47.122.114.115:6379
+25-04-28.14:59:24.379 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-04-28.14:59:24.444 [main            ] INFO  ITagServiceTest        - Started ITagServiceTest in 5.457 seconds (JVM running for 6.256)
+25-04-28.15:02:03.572 [redisson-timer-4-1] ERROR PingConnectionHandler  - Unable to send PING command over channel: [id: 0x27a1bbf0, L:/10.16.56.244:2678 - R:yygqzzk.xyz/47.122.114.115:6379]
+org.redisson.client.RedisTimeoutException: Command execution timeout for command: (PING), params: [], Redis client: [addr=redis://yygqzzk.xyz:6379]
+	at org.redisson.client.RedisConnection.lambda$async$0(RedisConnection.java:253)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)
+	at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+25-04-28.15:02:03.574 [redisson-timer-4-1] ERROR PingConnectionHandler  - Unable to send PING command over channel: [id: 0xc9fc4320, L:/10.16.56.244:2680 - R:yygqzzk.xyz/47.122.114.115:6379]
+org.redisson.client.RedisTimeoutException: Command execution timeout for command: (PING), params: [], Redis client: [addr=redis://yygqzzk.xyz:6379]
+	at org.redisson.client.RedisConnection.lambda$async$0(RedisConnection.java:253)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)
+	at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+25-04-28.15:02:03.574 [redisson-timer-4-1] ERROR PingConnectionHandler  - Unable to send PING command over channel: [id: 0x77d32f91, L:/10.16.56.244:2682 - R:yygqzzk.xyz/47.122.114.115:6379]
+org.redisson.client.RedisTimeoutException: Command execution timeout for command: (PING), params: [], Redis client: [addr=redis://yygqzzk.xyz:6379]
+	at org.redisson.client.RedisConnection.lambda$async$0(RedisConnection.java:253)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)
+	at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+25-04-28.15:02:17.762 [redisson-netty-1-13] ERROR rejectedExecution      - Failed to submit a listener notification task. Event loop shut down?
+java.util.concurrent.RejectedExecutionException: event executor terminated
+	at io.netty.util.concurrent.SingleThreadEventExecutor.reject(SingleThreadEventExecutor.java:934)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.offerTask(SingleThreadEventExecutor.java:351)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.addTask(SingleThreadEventExecutor.java:344)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute(SingleThreadEventExecutor.java:836)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute0(SingleThreadEventExecutor.java:827)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute(SingleThreadEventExecutor.java:817)
+	at io.netty.util.concurrent.DefaultPromise.safeExecute(DefaultPromise.java:862)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:500)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:636)
+	at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:625)
+	at io.netty.util.concurrent.DefaultPromise.setSuccess(DefaultPromise.java:97)
+	at io.netty.channel.group.DefaultChannelGroupFuture.setSuccess0(DefaultChannelGroupFuture.java:200)
+	at io.netty.channel.group.DefaultChannelGroupFuture.access$400(DefaultChannelGroupFuture.java:41)
+	at io.netty.channel.group.DefaultChannelGroupFuture$1.operationComplete(DefaultChannelGroupFuture.java:75)
+	at io.netty.channel.group.DefaultChannelGroupFuture$1.operationComplete(DefaultChannelGroupFuture.java:48)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:583)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:559)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:636)
+	at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:625)
+	at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:105)
+	at io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84)
+	at io.netty.channel.AbstractChannel$CloseFuture.setClosed(AbstractChannel.java:1164)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:755)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:731)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:620)
+	at io.netty.channel.nio.NioEventLoop.closeAll(NioEventLoop.java:838)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:595)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+25-04-28.15:32:16.202 [main            ] INFO  ITagServiceTest        - Starting ITagServiceTest using Java 1.8.0_381 on zzk with PID 25072 (started by yygqzzk in H:\Code\group-buy-market\group-buy-market-yygqzzk\group-buy-market-app)
+25-04-28.15:32:16.203 [main            ] INFO  ITagServiceTest        - The following 1 profile is active: "dev"
+25-04-28.15:32:17.012 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-28.15:32:17.016 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-28.15:32:17.045 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+25-04-28.15:32:18.392 [main            ] INFO  Version                - Redisson 3.26.0
+25-04-28.15:32:18.949 [redisson-netty-1-7] INFO  ConnectionsHolder      - 1 connections initialized for yygqzzk.xyz/47.122.114.115:6379
+25-04-28.15:32:19.257 [redisson-netty-1-14] INFO  ConnectionsHolder      - 5 connections initialized for yygqzzk.xyz/47.122.114.115:6379
+25-04-28.15:32:20.690 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-04-28.15:32:20.741 [main            ] INFO  ITagServiceTest        - Started ITagServiceTest in 4.999 seconds (JVM running for 5.898)
+25-04-28.15:32:26.982 [main            ] INFO  ITagServiceTest        - zzk 存在，预期结果为 true，测试结果:false
+25-04-28.15:32:27.026 [main            ] INFO  ITagServiceTest        - gudebai 不存在，预期结果为 false，测试结果:false
+25-04-28.15:34:21.387 [main            ] INFO  ITagServiceTest        - Starting ITagServiceTest using Java 1.8.0_381 on zzk with PID 38184 (started by yygqzzk in H:\Code\group-buy-market\group-buy-market-yygqzzk\group-buy-market-app)
+25-04-28.15:34:21.394 [main            ] INFO  ITagServiceTest        - The following 1 profile is active: "dev"
+25-04-28.15:34:22.090 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-28.15:34:22.094 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-28.15:34:22.124 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+25-04-28.15:34:23.390 [main            ] INFO  Version                - Redisson 3.26.0
+25-04-28.15:34:24.017 [redisson-netty-1-7] INFO  ConnectionsHolder      - 1 connections initialized for yygqzzk.xyz/47.122.114.115:6379
+25-04-28.15:34:24.338 [redisson-netty-1-14] INFO  ConnectionsHolder      - 5 connections initialized for yygqzzk.xyz/47.122.114.115:6379
+25-04-28.15:34:25.610 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-04-28.15:34:25.650 [main            ] INFO  ITagServiceTest        - Started ITagServiceTest in 4.585 seconds (JVM running for 5.213)
+25-04-28.15:34:25.820 [main            ] INFO  TagServiceImpl         - 人群标签批次任务 tagId:RQ_KJHKL98UU78H66554GFDV batchId:10001
+25-04-28.15:34:25.841 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-04-28.15:34:26.894 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-04-28.15:34:27.501 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-04-28.15:34:27.600 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-04-28.15:38:29.655 [main            ] INFO  ITagServiceTest        - Starting ITagServiceTest using Java 1.8.0_381 on zzk with PID 41880 (started by yygqzzk in H:\Code\group-buy-market\group-buy-market-yygqzzk\group-buy-market-app)
+25-04-28.15:38:29.656 [main            ] INFO  ITagServiceTest        - The following 1 profile is active: "dev"
+25-04-28.15:38:30.404 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-28.15:38:30.409 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-28.15:38:30.438 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+25-04-28.15:38:32.002 [main            ] INFO  Version                - Redisson 3.26.0
+25-04-28.15:38:32.598 [redisson-netty-1-7] INFO  ConnectionsHolder      - 1 connections initialized for yygqzzk.xyz/47.122.114.115:6379
+25-04-28.15:38:32.914 [redisson-netty-1-14] INFO  ConnectionsHolder      - 5 connections initialized for yygqzzk.xyz/47.122.114.115:6379
+25-04-28.15:38:34.263 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-04-28.15:38:34.323 [main            ] INFO  ITagServiceTest        - Started ITagServiceTest in 5.117 seconds (JVM running for 5.959)
+25-04-28.15:38:36.334 [main            ] INFO  TagServiceImpl         - 人群标签批次任务 tagId:RQ_KJHKL98UU78H66554GFDV batchId:10001
+25-04-28.15:38:36.362 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-04-28.15:38:37.363 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-04-28.15:38:56.948 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-04-28.15:38:57.067 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-04-28.15:39:55.198 [main            ] INFO  ITagServiceTest        - Starting ITagServiceTest using Java 1.8.0_381 on zzk with PID 36436 (started by yygqzzk in H:\Code\group-buy-market\group-buy-market-yygqzzk\group-buy-market-app)
+25-04-28.15:39:55.206 [main            ] INFO  ITagServiceTest        - The following 1 profile is active: "dev"
+25-04-28.15:39:55.896 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-28.15:39:55.899 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-28.15:39:55.933 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+25-04-28.15:39:57.241 [main            ] INFO  Version                - Redisson 3.26.0
+25-04-28.15:39:57.772 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for yygqzzk.xyz/47.122.114.115:6379
+25-04-28.15:39:59.106 [redisson-netty-1-14] INFO  ConnectionsHolder      - 5 connections initialized for yygqzzk.xyz/47.122.114.115:6379
+25-04-28.15:40:00.457 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-04-28.15:40:00.500 [main            ] INFO  ITagServiceTest        - Started ITagServiceTest in 5.645 seconds (JVM running for 6.246)
+25-04-28.15:40:00.661 [main            ] INFO  TagServiceImpl         - 人群标签批次任务 tagId:RQ_KJHKL98UU78H66554GFDV batchId:10001
+25-04-28.15:40:00.684 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-04-28.15:40:01.642 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-04-28.15:40:02.625 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-04-28.15:40:02.855 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-04-28.15:41:11.844 [main            ] INFO  ITagServiceTest        - Starting ITagServiceTest using Java 1.8.0_381 on zzk with PID 37532 (started by yygqzzk in H:\Code\group-buy-market\group-buy-market-yygqzzk\group-buy-market-app)
+25-04-28.15:41:11.851 [main            ] INFO  ITagServiceTest        - The following 1 profile is active: "dev"
+25-04-28.15:41:12.540 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-28.15:41:12.542 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-28.15:41:12.567 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+25-04-28.15:41:13.889 [main            ] INFO  Version                - Redisson 3.26.0
+25-04-28.15:41:14.441 [redisson-netty-1-7] INFO  ConnectionsHolder      - 1 connections initialized for yygqzzk.xyz/47.122.114.115:6379
+25-04-28.15:41:14.757 [redisson-netty-1-14] INFO  ConnectionsHolder      - 5 connections initialized for yygqzzk.xyz/47.122.114.115:6379
+25-04-28.15:41:16.056 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-04-28.15:41:16.096 [main            ] INFO  ITagServiceTest        - Started ITagServiceTest in 4.578 seconds (JVM running for 5.199)
+25-04-28.15:41:16.324 [main            ] INFO  ITagServiceTest        - zzk 存在，预期结果为 true，测试结果:true
+25-04-28.15:41:16.371 [main            ] INFO  ITagServiceTest        - gudebai 不存在，预期结果为 false，测试结果:false
+25-04-28.17:09:15.454 [main            ] INFO  IIndexGroupBuyMarketServiceTest - Starting IIndexGroupBuyMarketServiceTest using Java 1.8.0_381 on zzk with PID 4616 (started by yygqzzk in H:\Code\group-buy-market\group-buy-market-yygqzzk\group-buy-market-app)
+25-04-28.17:09:15.462 [main            ] INFO  IIndexGroupBuyMarketServiceTest - The following 1 profile is active: "dev"
+25-04-28.17:09:16.135 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-28.17:09:16.138 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-28.17:09:16.165 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+25-04-28.17:09:17.466 [main            ] INFO  Version                - Redisson 3.26.0
+25-04-28.17:09:18.012 [redisson-netty-1-7] INFO  ConnectionsHolder      - 1 connections initialized for yygqzzk.xyz/172.29.0.53:6379
+25-04-28.17:09:18.324 [redisson-netty-1-14] INFO  ConnectionsHolder      - 5 connections initialized for yygqzzk.xyz/172.29.0.53:6379
+25-04-28.17:09:19.559 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-04-28.17:09:19.601 [main            ] INFO  IIndexGroupBuyMarketServiceTest - Started IIndexGroupBuyMarketServiceTest in 4.494 seconds (JVM running for 5.157)
+25-04-28.17:09:19.886 [main            ] INFO  RootNode               - 拼团商品查询试算服务-RootNode userId:xiaofuge requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"xiaofuge"}
+25-04-28.17:09:19.914 [pool-2-thread-1 ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-04-28.17:09:20.901 [pool-2-thread-1 ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-04-28.17:09:21.158 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-04-28.17:09:21.479 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-04-28.17:10:45.347 [main            ] INFO  IIndexGroupBuyMarketServiceTest - Starting IIndexGroupBuyMarketServiceTest using Java 1.8.0_381 on zzk with PID 17152 (started by yygqzzk in H:\Code\group-buy-market\group-buy-market-yygqzzk\group-buy-market-app)
+25-04-28.17:10:45.356 [main            ] INFO  IIndexGroupBuyMarketServiceTest - The following 1 profile is active: "dev"
+25-04-28.17:10:46.060 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-28.17:10:46.064 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-28.17:10:46.095 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+25-04-28.17:10:47.315 [main            ] INFO  Version                - Redisson 3.26.0
+25-04-28.17:10:47.841 [redisson-netty-1-7] INFO  ConnectionsHolder      - 1 connections initialized for yygqzzk.xyz/172.29.0.53:6379
+25-04-28.17:10:48.162 [redisson-netty-1-14] INFO  ConnectionsHolder      - 5 connections initialized for yygqzzk.xyz/172.29.0.53:6379
+25-04-28.17:10:49.498 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-04-28.17:10:49.547 [main            ] INFO  IIndexGroupBuyMarketServiceTest - Started IIndexGroupBuyMarketServiceTest in 4.575 seconds (JVM running for 5.233)
+25-04-28.17:10:49.878 [main            ] INFO  RootNode               - 拼团商品查询试算服务-RootNode userId:xiaofuge requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"xiaofuge"}
+25-04-28.17:10:49.908 [pool-2-thread-1 ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-04-28.17:10:50.958 [pool-2-thread-1 ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-04-28.17:10:51.090 [main            ] INFO  MarketNode             - 拼团商品查询试算服务-MarketNode userId:xiaofuge requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"xiaofuge"}
+25-04-28.17:10:51.166 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-04-28.17:10:51.532 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-04-28.17:12:42.424 [main            ] INFO  IIndexGroupBuyMarketServiceTest - Starting IIndexGroupBuyMarketServiceTest using Java 1.8.0_381 on zzk with PID 30856 (started by yygqzzk in H:\Code\group-buy-market\group-buy-market-yygqzzk\group-buy-market-app)
+25-04-28.17:12:42.431 [main            ] INFO  IIndexGroupBuyMarketServiceTest - The following 1 profile is active: "dev"
+25-04-28.17:12:43.094 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-28.17:12:43.096 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-28.17:12:43.124 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+25-04-28.17:12:44.441 [main            ] INFO  Version                - Redisson 3.26.0
+25-04-28.17:12:44.968 [redisson-netty-1-7] INFO  ConnectionsHolder      - 1 connections initialized for yygqzzk.xyz/172.29.0.53:6379
+25-04-28.17:12:45.273 [redisson-netty-1-14] INFO  ConnectionsHolder      - 5 connections initialized for yygqzzk.xyz/172.29.0.53:6379
+25-04-28.17:12:46.522 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-04-28.17:12:46.564 [main            ] INFO  IIndexGroupBuyMarketServiceTest - Started IIndexGroupBuyMarketServiceTest in 4.483 seconds (JVM running for 5.086)
+25-04-28.17:12:46.855 [main            ] INFO  RootNode               - 拼团商品查询试算服务-RootNode userId:xiaofuge requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"xiaofuge"}
+25-04-28.17:12:46.885 [pool-2-thread-1 ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-04-28.17:12:47.885 [pool-2-thread-1 ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-04-28.17:12:48.111 [main            ] INFO  MarketNode             - 拼团商品查询试算服务-MarketNode userId:xiaofuge requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"xiaofuge"}
+25-04-28.17:12:48.111 [main            ] INFO  MJCalculateService     - 优惠策略折扣计算:0
+25-04-28.17:12:48.112 [main            ] INFO  IIndexGroupBuyMarketServiceTest - 请求参数:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"xiaofuge"}
+25-04-28.17:12:48.121 [main            ] INFO  IIndexGroupBuyMarketServiceTest - 返回结果:{"deductionPrice":90.00,"endTime":1733566780000,"goodsId":"9890001","goodsName":"《手写MyBatis：渐进式源码实践》","isEnable":false,"isVisible":false,"originalPrice":100.00,"startTime":1733566780000,"targetCount":1}
+25-04-28.17:12:48.202 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-04-28.17:12:48.488 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-04-28.17:13:24.939 [main            ] INFO  IIndexGroupBuyMarketServiceTest - Starting IIndexGroupBuyMarketServiceTest using Java 1.8.0_381 on zzk with PID 41192 (started by yygqzzk in H:\Code\group-buy-market\group-buy-market-yygqzzk\group-buy-market-app)
+25-04-28.17:13:24.947 [main            ] INFO  IIndexGroupBuyMarketServiceTest - The following 1 profile is active: "dev"
+25-04-28.17:13:25.575 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-28.17:13:25.579 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-28.17:13:25.607 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+25-04-28.17:13:26.811 [main            ] INFO  Version                - Redisson 3.26.0
+25-04-28.17:13:27.326 [redisson-netty-1-7] INFO  ConnectionsHolder      - 1 connections initialized for yygqzzk.xyz/172.29.0.53:6379
+25-04-28.17:13:27.657 [redisson-netty-1-14] INFO  ConnectionsHolder      - 5 connections initialized for yygqzzk.xyz/172.29.0.53:6379
+25-04-28.17:13:28.935 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-04-28.17:13:28.980 [main            ] INFO  IIndexGroupBuyMarketServiceTest - Started IIndexGroupBuyMarketServiceTest in 4.357 seconds (JVM running for 4.933)
+25-04-28.17:13:29.263 [main            ] INFO  RootNode               - 拼团商品查询试算服务-RootNode userId:yygqzzk requestParameter:{"channel":"c01","goodsId":"9890002","source":"s01","userId":"yygqzzk"}
+25-04-28.17:13:29.291 [pool-2-thread-1 ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-04-28.17:13:30.284 [pool-2-thread-1 ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-04-28.17:13:30.440 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-04-28.17:13:30.840 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-04-28.17:14:56.892 [main            ] INFO  IIndexGroupBuyMarketServiceTest - Starting IIndexGroupBuyMarketServiceTest using Java 1.8.0_381 on zzk with PID 13272 (started by yygqzzk in H:\Code\group-buy-market\group-buy-market-yygqzzk\group-buy-market-app)
+25-04-28.17:14:56.899 [main            ] INFO  IIndexGroupBuyMarketServiceTest - The following 1 profile is active: "dev"
+25-04-28.17:14:57.557 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-28.17:14:57.559 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-28.17:14:57.586 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+25-04-28.17:14:58.851 [main            ] INFO  Version                - Redisson 3.26.0
+25-04-28.17:14:59.380 [redisson-netty-1-7] INFO  ConnectionsHolder      - 1 connections initialized for yygqzzk.xyz/172.29.0.53:6379
+25-04-28.17:14:59.687 [redisson-netty-1-14] INFO  ConnectionsHolder      - 5 connections initialized for yygqzzk.xyz/172.29.0.53:6379
+25-04-28.17:15:01.044 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-04-28.17:15:01.082 [main            ] INFO  IIndexGroupBuyMarketServiceTest - Started IIndexGroupBuyMarketServiceTest in 4.524 seconds (JVM running for 5.112)
+25-04-28.17:15:01.369 [main            ] INFO  RootNode               - 拼团商品查询试算服务-RootNode userId:yygqzzk requestParameter:{"channel":"c02","goodsId":"9890001","source":"s01","userId":"yygqzzk"}
+25-04-28.17:15:01.394 [pool-2-thread-1 ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-04-28.17:15:02.400 [pool-2-thread-1 ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-04-28.17:15:02.531 [main            ] INFO  MarketNode             - 拼团商品查询试算服务-MarketNode userId:yygqzzk requestParameter:{"channel":"c02","goodsId":"9890001","source":"s01","userId":"yygqzzk"}
+25-04-28.17:15:02.630 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-04-28.17:15:02.983 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-04-28.17:45:49.138 [main            ] INFO  IIndexGroupBuyMarketServiceTest - Starting IIndexGroupBuyMarketServiceTest using Java 1.8.0_381 on zzk with PID 33996 (started by yygqzzk in H:\Code\group-buy-market\group-buy-market-yygqzzk\group-buy-market-app)
+25-04-28.17:45:49.147 [main            ] INFO  IIndexGroupBuyMarketServiceTest - The following 1 profile is active: "dev"
+25-04-28.17:45:49.837 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-28.17:45:49.840 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-28.17:45:49.864 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+25-04-28.17:45:51.131 [main            ] INFO  Version                - Redisson 3.26.0
+25-04-28.17:45:51.645 [redisson-netty-1-7] INFO  ConnectionsHolder      - 1 connections initialized for yygqzzk.xyz/172.29.0.53:6379
+25-04-28.17:45:52.019 [redisson-netty-1-14] INFO  ConnectionsHolder      - 5 connections initialized for yygqzzk.xyz/172.29.0.53:6379
+25-04-28.17:45:53.282 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-04-28.17:45:53.330 [main            ] INFO  IIndexGroupBuyMarketServiceTest - Started IIndexGroupBuyMarketServiceTest in 4.562 seconds (JVM running for 5.155)
+25-04-28.17:45:53.619 [main            ] INFO  RootNode               - 拼团商品查询试算服务-RootNode userId:yygqzzk requestParameter:{"channel":"c01","goodsId":"9890002","source":"s01","userId":"yygqzzk"}
+25-04-28.17:45:53.646 [pool-2-thread-2 ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-04-28.17:45:54.668 [pool-2-thread-2 ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-04-28.17:45:54.833 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-04-28.17:45:55.239 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-04-28.17:46:52.346 [main            ] INFO  IIndexGroupBuyMarketServiceTest - Starting IIndexGroupBuyMarketServiceTest using Java 1.8.0_381 on zzk with PID 27576 (started by yygqzzk in H:\Code\group-buy-market\group-buy-market-yygqzzk\group-buy-market-app)
+25-04-28.17:46:52.355 [main            ] INFO  IIndexGroupBuyMarketServiceTest - The following 1 profile is active: "dev"
+25-04-28.17:46:53.009 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-28.17:46:53.012 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-28.17:46:53.048 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+25-04-28.17:46:54.365 [main            ] INFO  Version                - Redisson 3.26.0
+25-04-28.17:46:54.935 [redisson-netty-1-7] INFO  ConnectionsHolder      - 1 connections initialized for yygqzzk.xyz/172.29.0.53:6379
+25-04-28.17:46:55.273 [redisson-netty-1-14] INFO  ConnectionsHolder      - 5 connections initialized for yygqzzk.xyz/172.29.0.53:6379
+25-04-28.17:46:56.566 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-04-28.17:46:56.608 [main            ] INFO  IIndexGroupBuyMarketServiceTest - Started IIndexGroupBuyMarketServiceTest in 4.585 seconds (JVM running for 5.168)
+25-04-28.17:46:56.888 [main            ] INFO  RootNode               - 拼团商品查询试算服务-RootNode userId:yygqzzk requestParameter:{"channel":"c01","goodsId":"9890002","source":"s01","userId":"yygqzzk"}
+25-04-28.17:46:56.914 [pool-2-thread-2 ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-04-28.17:46:57.921 [pool-2-thread-2 ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-04-28.17:46:58.050 [main            ] INFO  MarketNode             - 拼团商品查询试算服务-MarketNode userId:yygqzzk requestParameter:{"channel":"c01","goodsId":"9890002","source":"s01","userId":"yygqzzk"}
+25-04-28.17:46:58.050 [main            ] INFO  ErrorNode              - 商品无拼团营销配置 9890002
+25-04-28.17:46:58.134 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-04-28.17:46:58.483 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-04-28.17:49:27.260 [main            ] INFO  IIndexGroupBuyMarketServiceTest - Starting IIndexGroupBuyMarketServiceTest using Java 1.8.0_381 on zzk with PID 41120 (started by yygqzzk in H:\Code\group-buy-market\group-buy-market-yygqzzk\group-buy-market-app)
+25-04-28.17:49:27.266 [main            ] INFO  IIndexGroupBuyMarketServiceTest - The following 1 profile is active: "dev"
+25-04-28.17:49:28.006 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-28.17:49:28.008 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-28.17:49:28.034 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+25-04-28.17:49:29.379 [main            ] INFO  Version                - Redisson 3.26.0
+25-04-28.17:49:29.912 [redisson-netty-1-7] INFO  ConnectionsHolder      - 1 connections initialized for yygqzzk.xyz/47.122.114.115:6379
+25-04-28.17:49:30.221 [redisson-netty-1-14] INFO  ConnectionsHolder      - 5 connections initialized for yygqzzk.xyz/47.122.114.115:6379
+25-04-28.17:49:31.486 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-04-28.17:49:31.526 [main            ] INFO  IIndexGroupBuyMarketServiceTest - Started IIndexGroupBuyMarketServiceTest in 4.607 seconds (JVM running for 5.227)
+25-04-28.17:49:31.805 [main            ] INFO  RootNode               - 拼团商品查询试算服务-RootNode userId:yygqzzk requestParameter:{"channel":"c01","goodsId":"9890002","source":"s01","userId":"yygqzzk"}
+25-04-28.17:49:31.833 [pool-2-thread-2 ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-04-28.17:49:32.835 [pool-2-thread-2 ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-04-28.17:49:32.992 [main            ] INFO  MarketNode             - 拼团商品查询试算服务-MarketNode userId:yygqzzk requestParameter:{"channel":"c01","goodsId":"9890002","source":"s01","userId":"yygqzzk"}
+25-04-28.17:49:32.993 [main            ] INFO  ErrorNode              - 商品无拼团营销配置 9890002
+25-04-28.17:49:33.072 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-04-28.17:49:33.366 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-04-28.17:49:43.099 [main            ] INFO  IIndexGroupBuyMarketServiceTest - Starting IIndexGroupBuyMarketServiceTest using Java 1.8.0_381 on zzk with PID 27932 (started by yygqzzk in H:\Code\group-buy-market\group-buy-market-yygqzzk\group-buy-market-app)
+25-04-28.17:49:43.107 [main            ] INFO  IIndexGroupBuyMarketServiceTest - The following 1 profile is active: "dev"
+25-04-28.17:49:43.772 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+25-04-28.17:49:43.775 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+25-04-28.17:49:43.802 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+25-04-28.17:49:45.042 [main            ] INFO  Version                - Redisson 3.26.0
+25-04-28.17:49:45.581 [redisson-netty-1-7] INFO  ConnectionsHolder      - 1 connections initialized for yygqzzk.xyz/47.122.114.115:6379
+25-04-28.17:49:45.908 [redisson-netty-1-14] INFO  ConnectionsHolder      - 5 connections initialized for yygqzzk.xyz/47.122.114.115:6379
+25-04-28.17:49:47.356 [main            ] INFO  EndpointLinksResolver  - Exposing 1 endpoint(s) beneath base path '/actuator'
+25-04-28.17:49:47.398 [main            ] INFO  IIndexGroupBuyMarketServiceTest - Started IIndexGroupBuyMarketServiceTest in 4.646 seconds (JVM running for 5.266)
+25-04-28.17:49:47.675 [main            ] INFO  RootNode               - 拼团商品查询试算服务-RootNode userId:yygqzzk requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"yygqzzk"}
+25-04-28.17:49:47.702 [pool-2-thread-1 ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-04-28.17:49:48.699 [pool-2-thread-1 ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-04-28.17:49:48.930 [main            ] INFO  MarketNode             - 拼团商品查询试算服务-MarketNode userId:yygqzzk requestParameter:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"yygqzzk"}
+25-04-28.17:49:48.930 [main            ] INFO  MJCalculateService     - 优惠策略折扣计算:0
+25-04-28.17:49:48.933 [main            ] INFO  IIndexGroupBuyMarketServiceTest - 请求参数:{"channel":"c01","goodsId":"9890001","source":"s01","userId":"yygqzzk"}
+25-04-28.17:49:48.946 [main            ] INFO  IIndexGroupBuyMarketServiceTest - 返回结果:{"deductionPrice":90.00,"endTime":1733566780000,"goodsId":"9890001","goodsName":"《手写MyBatis：渐进式源码实践》","isEnable":false,"isVisible":false,"originalPrice":100.00,"startTime":1733566780000,"targetCount":1}
+25-04-28.17:49:49.020 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-04-28.17:49:49.247 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
