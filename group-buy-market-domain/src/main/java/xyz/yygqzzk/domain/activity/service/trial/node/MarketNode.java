@@ -1,5 +1,6 @@
 package xyz.yygqzzk.domain.activity.service.trial.node;
 
+import com.alibaba.fastjson.JSON;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -7,12 +8,17 @@ import xyz.yygqzzk.domain.activity.model.entity.MarketProductEntity;
 import xyz.yygqzzk.domain.activity.model.entity.TrialBalanceEntity;
 import xyz.yygqzzk.domain.activity.model.valobj.GroupBuyActivityDiscountVO;
 import xyz.yygqzzk.domain.activity.model.valobj.SkuVO;
+import xyz.yygqzzk.domain.activity.service.discount.IDiscountCalculateService;
 import xyz.yygqzzk.domain.activity.service.trial.AbstractGroupBuyMarketSupport;
 import xyz.yygqzzk.domain.activity.service.trial.factory.DefaultActivityStrategyFactory;
 import xyz.yygqzzk.domain.activity.service.trial.thread.QueryGroupBuyActivityDiscountVOThreadTask;
 import xyz.yygqzzk.domain.activity.service.trial.thread.QuerySkuFromDBThreadTask;
 import xyz.yygqzzk.types.design.framework.tree.StrategyHandler;
+import xyz.yygqzzk.types.enums.ResponseCode;
+import xyz.yygqzzk.types.exception.AppException;
 
+import java.math.BigDecimal;
+import java.util.Map;
 import java.util.concurrent.*;
 
 /**
@@ -28,6 +34,8 @@ public class MarketNode extends AbstractGroupBuyMarketSupport<MarketProductEntit
     private final ThreadPoolExecutor threadPoolExecutor;
 
     private final EndNode endNode;
+
+    private final Map<String, IDiscountCalculateService> discountCalculateServiceMap;
 
 
     @Override
@@ -49,6 +57,22 @@ public class MarketNode extends AbstractGroupBuyMarketSupport<MarketProductEntit
 
     @Override
     protected TrialBalanceEntity doApply(MarketProductEntity requestParameter, DefaultActivityStrategyFactory.DynamicContext dynamicContext) throws Exception {
+        log.info("拼团商品查询试算服务-MarketNode userId:{} requestParameter:{}", requestParameter.getUserId(), JSON.toJSONString(requestParameter));
+
+        GroupBuyActivityDiscountVO groupBuyActivityDiscountVO = dynamicContext.getGroupBuyActivityDiscountVO();
+        GroupBuyActivityDiscountVO.GroupBuyDiscount groupBuyDiscount = groupBuyActivityDiscountVO.getGroupBuyDiscount();
+        SkuVO skuVO = dynamicContext.getSkuVO();
+
+        // 拼团优惠计算
+        IDiscountCalculateService discountCalculateService = discountCalculateServiceMap.get(groupBuyDiscount.getMarketPlan());
+        if(null == discountCalculateService) {
+            throw new AppException(ResponseCode.E0001.getCode(), ResponseCode.E0001.getInfo());
+        }
+        BigDecimal deductionPrice = discountCalculateService.calculate(requestParameter.getUserId(), skuVO.getOriginalPrice(), groupBuyDiscount);
+
+        dynamicContext.setDeductionPrice(deductionPrice);
+
+
         return router(requestParameter, dynamicContext);
     }
 

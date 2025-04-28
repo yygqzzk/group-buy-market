@@ -12,6 +12,8 @@ import xyz.yygqzzk.domain.activity.model.valobj.SkuVO;
 import xyz.yygqzzk.domain.activity.service.trial.node.RootNode;
 import xyz.yygqzzk.types.design.framework.tree.StrategyHandler;
 
+import java.math.BigDecimal;
+
 /**
  * @author zzk
  * @version 1.0
@@ -38,6 +40,7 @@ public class DefaultActivityStrategyFactory {
     public static class DynamicContext {
         private GroupBuyActivityDiscountVO groupBuyActivityDiscountVO;
         private SkuVO skuVO;
+        private BigDecimal deductionPrice;
     }
 
 }

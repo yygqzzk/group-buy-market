@@ -37,5 +37,6 @@ build/
 ### Mac OS ###
 .DS_Store
 /.idea/
-/.idea/
-/.idea/
+/.lingma/
+
+/group-buy-market-app/data/
