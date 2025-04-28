@@ -1,5 +1,7 @@
 package xyz.yygqzzk.infrastructure.adapter.repository;
 
+import org.redisson.api.RBitSet;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import xyz.yygqzzk.domain.activity.adapter.repository.IActivityRepository;
 import xyz.yygqzzk.domain.activity.model.valobj.DiscountTypeEnum;
@@ -14,6 +16,7 @@ import xyz.yygqzzk.infrastructure.dao.po.GroupBuyActivity;
 import xyz.yygqzzk.infrastructure.dao.po.GroupBuyDiscount;
 import xyz.yygqzzk.infrastructure.dao.po.SCSkuActivity;
 import xyz.yygqzzk.infrastructure.dao.po.Sku;
+import xyz.yygqzzk.infrastructure.redis.RedissonService;
 import xyz.yygqzzk.types.enums.ResponseCode;
 import xyz.yygqzzk.types.exception.AppException;
 
@@ -37,6 +40,8 @@ public class ActivityRepository implements IActivityRepository {
     private ISCSkuActivityDao scSkuActivityDao;
     @Resource
     private ISkuDao skuDao;
+    @Autowired
+    private RedissonService redissonService;
 
     @Override
     public SkuVO querySkuByGoodsId(String goodsId) {
@@ -103,6 +108,23 @@ public class ActivityRepository implements IActivityRepository {
         scSkuActivityVO.setActivityId(scSkuActivityRes.getActivityId());
         return scSkuActivityVO;
     }
+
+    @Override
+    public boolean isTagCrowdRange(String tagId, String userId) {
+        /* 在人群标签批次任务中，已经为人群标签创建了redis bitSet, 每当为一个用户添加一个标签时， 会在对应标签的bitSet中计算出用户 userId的下标位置并赋值
+        *   故判断用户是否属于某一个人群，只需要从redis 对应人群标签的bitMap中判断
+        * */
+
+        RBitSet bitSet = redissonService.getBitSet(tagId);
+        if(!bitSet.isExists()) {
+            return true;
+        }
+
+
+        return bitSet.get(redissonService.getIndexFromUserId(userId));
+    }
+
+
 }
 
 

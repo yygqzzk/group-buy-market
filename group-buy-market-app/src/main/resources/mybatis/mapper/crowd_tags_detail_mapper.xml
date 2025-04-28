@@ -14,5 +14,10 @@
         insert into crowd_tags_detail(tag_id, user_id, create_time, update_time)
         values (#{tagId}, #{userId}, now(), now())
     </insert>
+    <select id="countTagIdWithUserId" resultType="java.lang.Integer">
+        select count(1)
+        from crowd_tags_detail
+        where user_id = #{userId} and tag_id = #{tagId};
+    </select>
 
 </mapper>

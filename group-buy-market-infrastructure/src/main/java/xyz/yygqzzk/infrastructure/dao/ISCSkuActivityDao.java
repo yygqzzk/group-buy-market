@@ -16,4 +16,5 @@ public interface ISCSkuActivityDao {
     SCSkuActivity querySCSkuActivityBySCGoodsId(SCSkuActivity scSkuActivity);
 
 
+
 }

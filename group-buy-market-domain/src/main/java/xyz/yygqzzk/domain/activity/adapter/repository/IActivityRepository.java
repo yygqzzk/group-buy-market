@@ -17,4 +17,7 @@ public interface IActivityRepository {
     GroupBuyActivityDiscountVO queryValidGroupBuyActivity(Long activityId);
 
     SCSkuActivityVO querySCSkuActivityBySCGoodsId(String source, String channel, String goodsId);
+
+    boolean isTagCrowdRange(String tagId, String userId);
+
 }

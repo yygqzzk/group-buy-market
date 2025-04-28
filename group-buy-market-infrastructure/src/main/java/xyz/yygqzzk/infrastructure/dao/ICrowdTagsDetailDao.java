@@ -13,4 +13,6 @@ public interface ICrowdTagsDetailDao {
 
     void addCrowdTagsUserId(CrowdTagsDetail crowdTagsDetailReq);
 
+    int countTagIdWithUserId(String tagId, String userId);
+
 }

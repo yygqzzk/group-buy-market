@@ -1,4 +1,4 @@
-package xyz.yygqzzk.test.tag;
+package xyz.yygqzzk.test.domain.tag;
 
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
@@ -40,6 +40,12 @@ public class ITagServiceTest {
         // 是否存在
         log.info("zzk 存在，预期结果为 true，测试结果:{}", bitSet.get(redisService.getIndexFromUserId("zzk")));
         log.info("gudebai 不存在，预期结果为 false，测试结果:{}", bitSet.get(redisService.getIndexFromUserId("gudebai")));
+    }
+
+    @Test
+    public void test_null_tag_bitmap() {
+        RBitSet bitSet = redisService.getBitSet("RQ_KJHKL98UU78H66554GFDV");
+        log.info("测试结果:{}", bitSet.isExists());
     }
 
 }

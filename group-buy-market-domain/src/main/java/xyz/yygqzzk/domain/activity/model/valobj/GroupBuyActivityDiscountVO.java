@@ -4,8 +4,11 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import org.apache.commons.lang3.StringUtils;
+import xyz.yygqzzk.types.common.Constants;
 
 import java.util.Date;
+import java.util.Objects;
 
 /**
  * @author zzk
@@ -79,6 +82,35 @@ public class GroupBuyActivityDiscountVO {
      * 人群标签规则范围
      */
     private String tagScope;
+
+    /* 可见限制 */
+    public boolean isVisible() {
+        if(StringUtils.isBlank(tagScope))
+            return TagScopeEnum.VISIBLE.getAllow();
+        String[] split = tagScope.split(Constants.SPLIT);
+
+        if(split.length > 0 && Objects.equals(split[0], "1")) {
+            return TagScopeEnum.VISIBLE.getRefuse();
+        }
+
+        return TagScopeEnum.VISIBLE.getAllow();
+    };
+
+
+
+    /* 参与限制 */
+    public boolean isEnable() {
+        if(StringUtils.isBlank(tagScope))
+            return TagScopeEnum.ENABLE.getAllow();
+        String[] split = tagScope.split(Constants.SPLIT);
+
+        if(split.length == 2 && Objects.equals(split[1], "2")) {
+            return TagScopeEnum.ENABLE.getRefuse();
+        }
+
+        return TagScopeEnum.ENABLE.getAllow();
+    };
+
 
     @Getter
     @Builder

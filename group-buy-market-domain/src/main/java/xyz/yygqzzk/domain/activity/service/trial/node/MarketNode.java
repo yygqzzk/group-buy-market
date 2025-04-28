@@ -33,7 +33,7 @@ import java.util.concurrent.*;
 public class MarketNode extends AbstractGroupBuyMarketSupport<MarketProductEntity, DefaultActivityStrategyFactory.DynamicContext, TrialBalanceEntity> {
     private final ThreadPoolExecutor threadPoolExecutor;
 
-    private final EndNode endNode;
+    private final TagNode tagNode;
     private final ErrorNode errorNode;
 
     private final Map<String, IDiscountCalculateService> discountCalculateServiceMap;
@@ -88,7 +88,7 @@ public class MarketNode extends AbstractGroupBuyMarketSupport<MarketProductEntit
         if(null == dynamicParameter.getGroupBuyActivityDiscountVO() || null == dynamicParameter.getSkuVO()) {
             return errorNode;
         }
-        return endNode;
+        return tagNode;
     }
 
 
