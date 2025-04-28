@@ -88,6 +88,8 @@
             <groupId>xyz.yygqzzk</groupId>
             <artifactId>group-buy-market-infrastructure</artifactId>
         </dependency>
+
+
     </dependencies>
 
     <build>

@@ -10,5 +10,6 @@
 
 ![image-20250427164147319](https://yygqzzk.oss-cn-wuhan-lr.aliyuncs.com/typora-images/202504271644087.png)
 
+# 人群标签数据采集
 
-
+![image-20250428094329731](https://yygqzzk.oss-cn-wuhan-lr.aliyuncs.com/typora-images/202504280944502.png)
