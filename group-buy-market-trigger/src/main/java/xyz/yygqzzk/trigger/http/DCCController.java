@@ -25,8 +25,6 @@ public class DCCController implements IDCCService {
     @Resource(name = "dccTopic")
     private RTopic dccTopic;
 
-
-
     /**
      * 动态值变更
      * <p>
