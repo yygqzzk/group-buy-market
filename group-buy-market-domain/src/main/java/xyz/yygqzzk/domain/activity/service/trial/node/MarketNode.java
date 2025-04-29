@@ -18,6 +18,7 @@ import xyz.yygqzzk.types.enums.ResponseCode;
 import xyz.yygqzzk.types.exception.AppException;
 
 import java.math.BigDecimal;
+import java.util.Date;
 import java.util.Map;
 import java.util.concurrent.*;
 
@@ -63,13 +64,27 @@ public class MarketNode extends AbstractGroupBuyMarketSupport<MarketProductEntit
         log.info("拼团商品查询试算服务-MarketNode userId:{} requestParameter:{}", requestParameter.getUserId(), JSON.toJSONString(requestParameter));
 
         GroupBuyActivityDiscountVO groupBuyActivityDiscountVO = dynamicContext.getGroupBuyActivityDiscountVO();
-        /* 未配置营销活动 */
-        if(null == groupBuyActivityDiscountVO) {
+        Date now = new Date();
+
+
+        SkuVO skuVO = dynamicContext.getSkuVO();
+        /* 未配置营销活动 或 不在营销活动时间内 */
+        if(null == groupBuyActivityDiscountVO || now.before(groupBuyActivityDiscountVO.getStartTime()) || now.after(groupBuyActivityDiscountVO.getEndTime())) {
+            dynamicContext.setDeductionPrice(skuVO.getOriginalPrice());
+
+            if(null == groupBuyActivityDiscountVO)
+                log.info("未配置营销活动");
+            else{
+                log.info("未在营销活动时间范围内");
+            }
+
             return router(requestParameter, dynamicContext);
         }
 
+
+
         GroupBuyActivityDiscountVO.GroupBuyDiscount groupBuyDiscount = groupBuyActivityDiscountVO.getGroupBuyDiscount();
-        SkuVO skuVO = dynamicContext.getSkuVO();
+
 
         // 拼团优惠计算
         IDiscountCalculateService discountCalculateService = discountCalculateServiceMap.get(groupBuyDiscount.getMarketPlan());

@@ -83,7 +83,7 @@ public class TradeRepository implements ITradeRepository {
         if(StringUtils.isBlank(teamId)) {
             /* 首次拼团 */
             // 使用 RandomStringUtils.randomNumeric 替代公司里使用的雪花算法UUID
-            teamId = RandomStringUtils.random(8);
+            teamId = RandomStringUtils.randomNumeric(8);
 
             // 构建拼团订单
             GroupBuyOrder groupBuyOrder = GroupBuyOrder.builder()
@@ -109,7 +109,7 @@ public class TradeRepository implements ITradeRepository {
         }
 
         // 使用 RandomStringUtils.randomNumeric 替代公司里使用的雪花算法UUID
-        String orderId = RandomStringUtils.random(12);
+        String orderId = RandomStringUtils.randomNumeric(12);
 
         GroupBuyOrderList groupBuyOrderListReq = GroupBuyOrderList.builder()
                 .userId(userEntity.getUserId())
