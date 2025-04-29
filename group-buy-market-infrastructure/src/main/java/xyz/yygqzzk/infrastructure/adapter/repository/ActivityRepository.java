@@ -16,6 +16,7 @@ import xyz.yygqzzk.infrastructure.dao.po.GroupBuyActivity;
 import xyz.yygqzzk.infrastructure.dao.po.GroupBuyDiscount;
 import xyz.yygqzzk.infrastructure.dao.po.SCSkuActivity;
 import xyz.yygqzzk.infrastructure.dao.po.Sku;
+import xyz.yygqzzk.infrastructure.dcc.DCCService;
 import xyz.yygqzzk.infrastructure.redis.RedissonService;
 import xyz.yygqzzk.types.enums.ResponseCode;
 import xyz.yygqzzk.types.exception.AppException;
@@ -42,6 +43,8 @@ public class ActivityRepository implements IActivityRepository {
     private ISkuDao skuDao;
     @Autowired
     private RedissonService redissonService;
+    @Resource
+    private DCCService dccService;
 
     @Override
     public SkuVO querySkuByGoodsId(String goodsId) {
@@ -120,8 +123,17 @@ public class ActivityRepository implements IActivityRepository {
             return true;
         }
 
-
         return bitSet.get(redissonService.getIndexFromUserId(userId));
+    }
+
+    @Override
+    public boolean downgradeSwitch() {
+        return dccService.isDowngradeSwitch();
+    }
+
+    @Override
+    public boolean cutRange(String userId) {
+        return dccService.isCutRange(userId);
     }
 
 

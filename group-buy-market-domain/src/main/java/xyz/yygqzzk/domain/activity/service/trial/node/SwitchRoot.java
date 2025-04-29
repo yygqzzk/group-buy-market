@@ -7,6 +7,8 @@ import xyz.yygqzzk.domain.activity.model.entity.TrialBalanceEntity;
 import xyz.yygqzzk.domain.activity.service.trial.AbstractGroupBuyMarketSupport;
 import xyz.yygqzzk.domain.activity.service.trial.factory.DefaultActivityStrategyFactory;
 import xyz.yygqzzk.types.design.framework.tree.StrategyHandler;
+import xyz.yygqzzk.types.enums.ResponseCode;
+import xyz.yygqzzk.types.exception.AppException;
 
 import javax.annotation.Resource;
 import java.util.concurrent.ExecutionException;
@@ -27,6 +29,19 @@ public class SwitchRoot extends AbstractGroupBuyMarketSupport<MarketProductEntit
 
     @Override
     protected TrialBalanceEntity doApply(MarketProductEntity requestParameter, DefaultActivityStrategyFactory.DynamicContext dynamicContext) throws Exception {
+        String userId = requestParameter.getUserId();
+
+        /* 判断是否降级 */
+        if(activityRepository.downgradeSwitch()) {
+            log.info("拼团活动降级拦截 {}", userId);
+            throw new AppException(ResponseCode.E0003.getCode(), ResponseCode.E0003.getInfo());
+        }
+        /* 根据用户ID切量 */
+        if(!activityRepository.cutRange(userId)) {
+            log.info("拼团活动切量拦截 {}", userId);
+            throw new AppException(ResponseCode.E0004.getCode(), ResponseCode.E0004.getInfo());
+        }
+
         return router(requestParameter, dynamicContext);
     }
 
