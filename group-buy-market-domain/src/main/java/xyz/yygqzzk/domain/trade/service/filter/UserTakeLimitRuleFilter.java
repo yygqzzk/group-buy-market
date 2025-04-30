@@ -1,0 +1,51 @@
+package xyz.yygqzzk.domain.trade.service.filter;
+
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.stereotype.Service;
+import xyz.yygqzzk.domain.trade.adapter.repository.ITradeRepository;
+import xyz.yygqzzk.domain.trade.model.entity.GroupBuyActivityEntity;
+import xyz.yygqzzk.domain.trade.model.entity.TradeRuleCommandEntity;
+import xyz.yygqzzk.domain.trade.model.entity.TradeRuleFilterEntity;
+import xyz.yygqzzk.domain.trade.service.factory.TradeRuleFilterFactory;
+import xyz.yygqzzk.types.design.framework.link.model2.handler.ILogicHandler;
+import xyz.yygqzzk.types.enums.ResponseCode;
+import xyz.yygqzzk.types.exception.AppException;
+
+import javax.annotation.Resource;
+
+/**
+ * @author zzk
+ * @version 1.0
+ * @description
+ * @since 2025/4/30
+ */
+@Service
+@Slf4j
+public class UserTakeLimitRuleFilter implements ILogicHandler<TradeRuleCommandEntity, TradeRuleFilterFactory.DynamicContext, TradeRuleFilterEntity> {
+
+    @Resource
+    private ITradeRepository repository;
+
+    @Override
+    public TradeRuleFilterEntity apply(TradeRuleCommandEntity requestParameter, TradeRuleFilterFactory.DynamicContext dynamicContext) throws Exception {
+        log.info("交易规则过滤-用户参与次数校验{} activityId: {}", requestParameter, requestParameter.getActivityId());
+
+        GroupBuyActivityEntity groupBuyActivity = dynamicContext.getGroupBuyActivity();
+
+        /* 查询用户在活动中的参与次数 */
+        Integer count = repository.queryOrderCountByActivityId(requestParameter.getActivityId(), requestParameter.getUserId());
+
+        if(null != groupBuyActivity.getTakeLimitCount() && count >= groupBuyActivity.getTakeLimitCount()){
+            /* 营销活动有参与限制，并且参与次数已超过参与限制 */
+            throw new AppException(ResponseCode.E0103);
+        }
+
+        return TradeRuleFilterEntity.builder()
+                .userTakeOrderCount(count)
+                .build();
+    }
+}
+
+
+
+

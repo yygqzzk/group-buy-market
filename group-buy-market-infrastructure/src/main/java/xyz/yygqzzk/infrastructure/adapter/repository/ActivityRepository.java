@@ -63,8 +63,12 @@ public class ActivityRepository implements IActivityRepository {
 
         GroupBuyActivity groupBuyActivityRes = groupBuyActivityDao.queryValidGroupBuyActivity(activityId);
 
+        if (null == groupBuyActivityRes) return null;
+
         String discountId = groupBuyActivityRes.getDiscountId();
         GroupBuyDiscount groupBuyDiscountRes = groupBuyDiscountDao.queryGroupBuyActivityDiscountByDiscountId(discountId);
+
+        if(null == groupBuyDiscountRes) return null;
 
         GroupBuyActivityDiscountVO.GroupBuyDiscount groupBuyDiscount = GroupBuyActivityDiscountVO.GroupBuyDiscount.builder()
                 .discountName(groupBuyDiscountRes.getDiscountName())
@@ -72,7 +76,7 @@ public class ActivityRepository implements IActivityRepository {
                 .discountType(DiscountTypeEnum.get(groupBuyDiscountRes.getDiscountType()))
                 .marketPlan(groupBuyDiscountRes.getMarketPlan())
                 .marketExpr(groupBuyDiscountRes.getMarketExpr())
-                .tagId(groupBuyDiscountRes.getTagId())
+                .tagId(groupBuyActivityRes.getTagId())
                 .build();
 
 
@@ -119,6 +123,7 @@ public class ActivityRepository implements IActivityRepository {
         * */
 
         RBitSet bitSet = redissonService.getBitSet(tagId);
+        /* 人群标签不存在或无效 则忽略人群标签*/
         if(!bitSet.isExists()) {
             return true;
         }

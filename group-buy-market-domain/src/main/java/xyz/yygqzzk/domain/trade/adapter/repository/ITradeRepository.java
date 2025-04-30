@@ -1,6 +1,7 @@
 package xyz.yygqzzk.domain.trade.adapter.repository;
 
 import xyz.yygqzzk.domain.trade.model.aggregate.GroupBuyOrderAggregate;
+import xyz.yygqzzk.domain.trade.model.entity.GroupBuyActivityEntity;
 import xyz.yygqzzk.domain.trade.model.entity.MarketPayOrderEntity;
 import xyz.yygqzzk.domain.trade.model.valobj.GroupBuyProgressVO;
 
@@ -12,12 +13,13 @@ import xyz.yygqzzk.domain.trade.model.valobj.GroupBuyProgressVO;
  */
 public interface ITradeRepository {
 
-
-
-
     GroupBuyProgressVO queryGroupBuyProgress(String teamId);
 
     MarketPayOrderEntity queryNoPayMarketPayOrderByOutTradeNo(String userId, String outTradeNo);
 
     MarketPayOrderEntity lockMarketPayOrder(GroupBuyOrderAggregate groupBuyOrderAggregate);
+
+    GroupBuyActivityEntity queryGroupBuyActivityByActivityId(Long activityId);
+
+    Integer queryOrderCountByActivityId(Long activityId, String userId);
 }

@@ -38,10 +38,17 @@ public class DefaultActivityStrategyFactory {
     @AllArgsConstructor
     @NoArgsConstructor
     public static class DynamicContext {
+        // 拼团活动营销配置值对象
         private GroupBuyActivityDiscountVO groupBuyActivityDiscountVO;
+        // 商品信息
         private SkuVO skuVO;
+        /* 折扣金额 */
         private BigDecimal deductionPrice;
+        /* 最终支付金额 */
+        private BigDecimal payPrice;
+        // 活动可见性限制
         private Boolean visible;
+        // 活动参与限制
         private Boolean enable;
 
     }

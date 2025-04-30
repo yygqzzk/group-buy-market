@@ -1,6 +1,6 @@
-package xyz.yygqzzk.test.domain.trade;
+package xyz.yygqzzk.test.trigger;
 
-import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson2.JSON;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -20,14 +20,14 @@ import javax.annotation.Resource;
 
 /**
  * @author zzk
- * @description 交易订单服务测试
- * @create 2025-01-11 11:52
+ * @version 1.0
+ * @description
+ * @since 2025/4/30
  */
 @Slf4j
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class ITradeOrderServiceTest {
-
+public class MarketTradeControllerTest {
     @Resource
     private IIndexGroupBuyMarketService indexGroupBuyMarketService;
 
@@ -38,11 +38,11 @@ public class ITradeOrderServiceTest {
     public void test_lockMarketPayOrder() throws Exception {
         // 入参信息
         Long activityId = 100123L;
-        String userId = "yygqzzk";
+        String userId = "opq";
         String goodsId = "9890001";
         String source = "s01";
         String channel = "c01";
-        String outTradeNo = "909000098112";
+        String outTradeNo = "909000098111";
 
         // 1. 获取试算优惠，有【activityId】优先使用
         TrialBalanceEntity trialBalanceEntity = indexGroupBuyMarketService.indexMarketTrial(MarketProductEntity.builder()
@@ -80,10 +80,14 @@ public class ITradeOrderServiceTest {
                         .goodsName(trialBalanceEntity.getGoodsName())
                         .originalPrice(trialBalanceEntity.getOriginalPrice())
                         .deductionPrice(trialBalanceEntity.getDeductionPrice())
+                        .payPrice(trialBalanceEntity.getPayPrice())
                         .outTradeNo(outTradeNo)
                         .build());
 
         log.info("测试结果(New):{}",JSON.toJSONString(marketPayOrderEntityNew));
     }
-
 }
+
+
+
+

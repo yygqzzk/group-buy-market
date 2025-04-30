@@ -67,40 +67,34 @@ public class MarketNode extends AbstractGroupBuyMarketSupport<MarketProductEntit
         Date now = new Date();
 
 
-        SkuVO skuVO = dynamicContext.getSkuVO();
-        /* 未配置营销活动 或 不在营销活动时间内 */
-        if(null == groupBuyActivityDiscountVO || now.before(groupBuyActivityDiscountVO.getStartTime()) || now.after(groupBuyActivityDiscountVO.getEndTime())) {
-            dynamicContext.setDeductionPrice(skuVO.getOriginalPrice());
 
-            if(null == groupBuyActivityDiscountVO)
-                log.info("未配置营销活动");
-            else{
-                log.info("未在营销活动时间范围内");
-            }
-
+        /* 未配置营销活动 */
+        if (null == groupBuyActivityDiscountVO) {
             return router(requestParameter, dynamicContext);
         }
 
-
+        SkuVO skuVO = dynamicContext.getSkuVO();
 
         GroupBuyActivityDiscountVO.GroupBuyDiscount groupBuyDiscount = groupBuyActivityDiscountVO.getGroupBuyDiscount();
 
 
         // 拼团优惠计算
         IDiscountCalculateService discountCalculateService = discountCalculateServiceMap.get(groupBuyDiscount.getMarketPlan());
-        if(null == discountCalculateService) {
+        if (null == discountCalculateService) {
             throw new AppException(ResponseCode.E0001.getCode(), ResponseCode.E0001.getInfo());
         }
-        BigDecimal deductionPrice = discountCalculateService.calculate(requestParameter.getUserId(), skuVO.getOriginalPrice(), groupBuyDiscount);
-
-        dynamicContext.setDeductionPrice(deductionPrice);
+        /* 最终支付金额 */
+        BigDecimal payPrice = discountCalculateService.calculate(requestParameter.getUserId(), skuVO.getOriginalPrice(), groupBuyDiscount);
+        /* 折扣金额 */
+        dynamicContext.setDeductionPrice(skuVO.getOriginalPrice().subtract(payPrice));
+        dynamicContext.setPayPrice(payPrice);
 
         return router(requestParameter, dynamicContext);
     }
 
     @Override
     public StrategyHandler<MarketProductEntity, DefaultActivityStrategyFactory.DynamicContext, TrialBalanceEntity> get(MarketProductEntity requestParameter, DefaultActivityStrategyFactory.DynamicContext dynamicParameter) throws Exception {
-        if(null == dynamicParameter.getGroupBuyActivityDiscountVO() || null == dynamicParameter.getSkuVO()) {
+        if (null == dynamicParameter.getGroupBuyActivityDiscountVO() || null == dynamicParameter.getSkuVO()) {
             return errorNode;
         }
         return tagNode;

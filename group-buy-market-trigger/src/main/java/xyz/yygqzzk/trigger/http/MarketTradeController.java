@@ -3,9 +3,7 @@ package xyz.yygqzzk.trigger.http;
 import com.alibaba.fastjson2.JSON;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import xyz.yygqzzk.api.IMarketTradeService;
 import xyz.yygqzzk.api.dto.LockMarketPayOrderRequestDTO;
 import xyz.yygqzzk.api.dto.LockMarketPayOrderResponseDTO;
@@ -45,9 +43,9 @@ public class MarketTradeController implements IMarketTradeService {
     @Resource
     private ITradeOrderService tradeOrderService;
 
-
+    @RequestMapping(value = "lock_market_pay_order", method = RequestMethod.POST)
     @Override
-    public Response<LockMarketPayOrderResponseDTO> lockMarketPayOrder(LockMarketPayOrderRequestDTO lockMarketPayOrderRequestDTO) {
+    public Response<LockMarketPayOrderResponseDTO> lockMarketPayOrder(@RequestBody LockMarketPayOrderRequestDTO lockMarketPayOrderRequestDTO) {
 
         try {
             // 参数
@@ -97,43 +95,37 @@ public class MarketTradeController implements IMarketTradeService {
             TrialBalanceEntity trialBalanceEntity = indexGroupBuyMarketService.indexMarketTrial(marketProductEntity);
             GroupBuyActivityDiscountVO groupBuyActivityDiscountVO = trialBalanceEntity.getGroupBuyActivityDiscountVO();
 
+            /* 人群限定 */
+
+
 
             /* 创建锁单 */
-            UserEntity userEntity = UserEntity.builder()
-                    .userId(userId).build();
-            PayActivityEntity payActivityEntity = PayActivityEntity.builder()
-                    .activityName(groupBuyActivityDiscountVO.getActivityName())
-                    .activityId(groupBuyActivityDiscountVO.getActivityId())
-                    .teamId(teamId)
-                    .targetCount(trialBalanceEntity.getTargetCount())
-                    .startTime(trialBalanceEntity.getStartTime())
-                    .endTime(trialBalanceEntity.getEndTime())
-                    .build();
-
-            PayDiscountEntity payDiscountEntity = PayDiscountEntity.builder()
-                        .source(source)
-                        .channel(channel)
-                        .goodsId(trialBalanceEntity.getGoodsId())
-                        .goodsName(trialBalanceEntity.getGoodsName())
-                        .originalPrice(trialBalanceEntity.getOriginalPrice())
-                        .deductionPrice(trialBalanceEntity.getDeductionPrice())
-                        .outTradeNo(outTradeNo)
-                        .build();
-
-            MarketPayOrderEntity marketPayOrderRes = tradeOrderService.lockMarketPayOrder(userEntity, payActivityEntity, payDiscountEntity);
+            MarketPayOrderEntity marketPayOrderRes = tradeOrderService.lockMarketPayOrder(
+                    UserEntity.builder()
+                            .userId(userId)
+                            .build(),
+                    PayActivityEntity.builder()
+                            .activityName(groupBuyActivityDiscountVO.getActivityName())
+                            .activityId(groupBuyActivityDiscountVO.getActivityId())
+                            .teamId(teamId).targetCount(trialBalanceEntity.getTargetCount()).
+                            startTime(trialBalanceEntity.getStartTime())
+                            .endTime(trialBalanceEntity.getEndTime())
+                            .build(),
+                    PayDiscountEntity.builder()
+                            .source(source)
+                            .channel(channel)
+                            .goodsId(trialBalanceEntity.getGoodsId())
+                            .goodsName(trialBalanceEntity.getGoodsName())
+                            .originalPrice(trialBalanceEntity.getOriginalPrice())
+                            .deductionPrice(trialBalanceEntity.getDeductionPrice())
+                            .payPrice(trialBalanceEntity.getPayPrice())
+                            .outTradeNo(outTradeNo)
+                            .build());
 
             log.info("交易锁单记录(新):{} marketPayOrderEntity:{}", userId, JSON.toJSONString(marketPayOrderEntity));
 
             // 返回结果
-            return Response.<LockMarketPayOrderResponseDTO>builder()
-                    .code(ResponseCode.SUCCESS.getCode())
-                    .info(ResponseCode.SUCCESS.getInfo())
-                    .data(LockMarketPayOrderResponseDTO.builder()
-                            .orderId(marketPayOrderRes.getOrderId())
-                            .deductionPrice(marketPayOrderRes.getDeductionPrice())
-                            .tradeOrderStatus(marketPayOrderRes.getTradeOrderStatusEnumVO().getCode())
-                            .build())
-                    .build();
+            return Response.<LockMarketPayOrderResponseDTO>builder().code(ResponseCode.SUCCESS.getCode()).info(ResponseCode.SUCCESS.getInfo()).data(LockMarketPayOrderResponseDTO.builder().orderId(marketPayOrderRes.getOrderId()).deductionPrice(marketPayOrderRes.getDeductionPrice()).tradeOrderStatus(marketPayOrderRes.getTradeOrderStatusEnumVO().getCode()).build()).build();
         } catch (AppException e) {
             log.error("营销交易锁单业务异常:{} LockMarketPayOrderRequestDTO:{}", lockMarketPayOrderRequestDTO.getUserId(), JSON.toJSONString(lockMarketPayOrderRequestDTO), e);
             return Response.<LockMarketPayOrderResponseDTO>builder().code(e.getCode()).info(e.getInfo()).build();
