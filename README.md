@@ -25,3 +25,12 @@
 
 
 ![image-20250429102923218](https://yygqzzk.oss-cn-wuhan-lr.aliyuncs.com/typora-images/202504291029307.png)
+
+# 责任链
+
+![image-20250429222326939](https://yygqzzk.oss-cn-wuhan-lr.aliyuncs.com/typora-images/202504292223379.png)
+
+
+
+
+
