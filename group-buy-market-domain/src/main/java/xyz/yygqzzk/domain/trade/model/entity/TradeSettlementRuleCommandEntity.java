@@ -10,14 +10,15 @@ import java.util.Date;
 /**
  * @author zzk
  * @version 1.0
- * @description
- * @since 2025/4/30
+ * @description 拼团交易结算规则命令
+ * @since 2025/5/1
  */
 @Data
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class TradePaySuccessEntity {
+public class TradeSettlementRuleCommandEntity {
+
     /** 渠道 */
     private String source;
     /** 来源 */
@@ -26,7 +27,7 @@ public class TradePaySuccessEntity {
     private String userId;
     /** 外部交易单号 */
     private String outTradeNo;
-    /* 外部交易时间 */
+    /** 外部交易时间 */
     private Date outTradeTime;
 }
 

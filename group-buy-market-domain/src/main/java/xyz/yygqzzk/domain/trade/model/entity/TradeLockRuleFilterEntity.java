@@ -16,7 +16,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class TradeRuleFilterEntity {
+public class TradeLockRuleFilterEntity {
 
     // 用户参与活动的订单量
     private Integer userTakeOrderCount;

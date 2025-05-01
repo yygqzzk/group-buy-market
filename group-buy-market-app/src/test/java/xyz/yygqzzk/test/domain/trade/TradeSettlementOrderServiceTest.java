@@ -14,6 +14,7 @@ import xyz.yygqzzk.domain.trade.service.ITradeSettlementOrderService;
 import xyz.yygqzzk.domain.trade.service.settlement.TradeSettlementOrderServiceImpl;
 
 import javax.annotation.Resource;
+import java.util.Date;
 
 /**
  * @author zzk
@@ -34,13 +35,14 @@ public class TradeSettlementOrderServiceTest {
     private ITradeSettlementOrderService tradeSettlementOrderService;
 
     @Test
-    public void testSettlementOrder() {
+    public void testSettlementOrder() throws Exception {
         TradePaySuccessEntity tradePaySuccessEntity = new TradePaySuccessEntity() {
             {
-                setSource("s01");
-                setChannel("c01");
-                setUserId("yygqzzk");
-                setOutTradeNo("909000098113");
+                setSource("s02");
+                setChannel("c02");
+                setUserId("zzk");
+                setOutTradeNo("265315731514");
+                setOutTradeTime(new Date());
             }
         };
 

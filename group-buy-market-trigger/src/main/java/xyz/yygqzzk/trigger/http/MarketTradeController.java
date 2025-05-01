@@ -22,6 +22,7 @@ import xyz.yygqzzk.types.enums.ResponseCode;
 import xyz.yygqzzk.types.exception.AppException;
 
 import javax.annotation.Resource;
+import java.util.Date;
 import java.util.Objects;
 
 /**
@@ -94,9 +95,7 @@ public class MarketTradeController implements IMarketTradeService {
             TrialBalanceEntity trialBalanceEntity = indexGroupBuyMarketService.indexMarketTrial(marketProductEntity);
             GroupBuyActivityDiscountVO groupBuyActivityDiscountVO = trialBalanceEntity.getGroupBuyActivityDiscountVO();
 
-            /* 人群限定 */
-
-
+            Date validEndTime = new Date();
 
             /* 创建锁单 */
             MarketPayOrderEntity marketPayOrderRes = tradeOrderService.lockMarketPayOrder(
@@ -109,6 +108,7 @@ public class MarketTradeController implements IMarketTradeService {
                             .teamId(teamId).targetCount(trialBalanceEntity.getTargetCount()).
                             startTime(trialBalanceEntity.getStartTime())
                             .endTime(trialBalanceEntity.getEndTime())
+                            .validTime(groupBuyActivityDiscountVO.getValidTime())
                             .build(),
                     PayDiscountEntity.builder()
                             .source(source)

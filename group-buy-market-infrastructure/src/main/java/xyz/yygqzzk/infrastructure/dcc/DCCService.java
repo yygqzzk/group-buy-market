@@ -4,6 +4,9 @@ import org.springframework.stereotype.Service;
 import xyz.yygqzzk.types.annotation.DCCValue;
 import xyz.yygqzzk.types.common.Constants;
 
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * @author zzk
  * @version 1.0
@@ -19,8 +22,14 @@ public class DCCService {
     @DCCValue("downgradeSwitch:0")
     private String downgradeSwitch;
 
+    /* 切量开关 控制进入流量*/
     @DCCValue("cutRange:100")
     private String cutRange;
+
+    /* sc黑名单 */
+    @DCCValue("scBlacklist:s02c02")
+    private String scBlacklist;
+
 
     /*
     * 切量和降级是系统设计中常见的两种策略，主要用于应对高并发、系统过载或部分功能异常的场景。
@@ -28,8 +37,7 @@ public class DCCService {
     切量是一种流量控制策略，指在系统面临高负载或部分服务不可用时，通过限制进入系统的请求量来保护系统。
 
     降级是指在系统资源不足或部分功能异常时，暂时关闭或简化某些非核心功能，以确保核心功能的正常运行。
-    *
-    *
+
     * */
 
     public boolean isDowngradeSwitch() {
@@ -47,6 +55,12 @@ public class DCCService {
 
         // 判断是否在切量范围内
         return lastTwoDigits <= Integer.parseInt(cutRange);
+    }
+
+    public boolean isSCBlackIntercept(String source, String channel) {
+        List<String> list = Arrays.asList(scBlacklist.split(Constants.SPLIT));
+        return list.contains(source + channel);
+
     }
 }
 

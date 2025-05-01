@@ -94,6 +94,7 @@ public class DCCValueBeanFactory implements BeanPostProcessor {
 
     /*
     * 该方法使用Spring AOP 动态代理机制，使得Spring创建完一个Bean之后都会调用该方法
+    * 读取dcc的配置
     * */
     @Override
     public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {
