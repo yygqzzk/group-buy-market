@@ -3,6 +3,8 @@ package xyz.yygqzzk.infrastructure.dao;
 import org.apache.ibatis.annotations.Mapper;
 import xyz.yygqzzk.infrastructure.dao.po.GroupBuyOrderList;
 
+import java.util.List;
+
 /**
  * @author zzk
  * @version 1.0
@@ -18,6 +20,10 @@ public interface IGroupBuyOrderListDao {
 
 
     Integer queryOrderCountBy(Long activityId, String userId);
+
+    Integer updateOrderStatus2COMPLETE(GroupBuyOrderList groupBuyOrderListReq);
+
+    List<String> queryGroupBuyCompleteOrderOutTradeNOListByTeamId(String teamId);
 }
 
 

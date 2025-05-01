@@ -12,13 +12,12 @@ import xyz.yygqzzk.domain.activity.model.entity.MarketProductEntity;
 import xyz.yygqzzk.domain.activity.model.entity.TrialBalanceEntity;
 import xyz.yygqzzk.domain.activity.model.valobj.GroupBuyActivityDiscountVO;
 import xyz.yygqzzk.domain.activity.service.IIndexGroupBuyMarketService;
-import xyz.yygqzzk.domain.trade.adapter.repository.ITradeRepository;
 import xyz.yygqzzk.domain.trade.model.entity.MarketPayOrderEntity;
 import xyz.yygqzzk.domain.trade.model.entity.PayActivityEntity;
 import xyz.yygqzzk.domain.trade.model.entity.PayDiscountEntity;
 import xyz.yygqzzk.domain.trade.model.entity.UserEntity;
 import xyz.yygqzzk.domain.trade.model.valobj.GroupBuyProgressVO;
-import xyz.yygqzzk.domain.trade.service.ITradeOrderService;
+import xyz.yygqzzk.domain.trade.service.ITradeLockOrderService;
 import xyz.yygqzzk.types.enums.ResponseCode;
 import xyz.yygqzzk.types.exception.AppException;
 
@@ -41,7 +40,7 @@ public class MarketTradeController implements IMarketTradeService {
     private IIndexGroupBuyMarketService indexGroupBuyMarketService;
 
     @Resource
-    private ITradeOrderService tradeOrderService;
+    private ITradeLockOrderService tradeOrderService;
 
     @RequestMapping(value = "lock_market_pay_order", method = RequestMethod.POST)
     @Override

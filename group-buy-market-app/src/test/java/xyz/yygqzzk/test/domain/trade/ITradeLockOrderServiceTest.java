@@ -14,7 +14,7 @@ import xyz.yygqzzk.domain.trade.model.entity.MarketPayOrderEntity;
 import xyz.yygqzzk.domain.trade.model.entity.PayActivityEntity;
 import xyz.yygqzzk.domain.trade.model.entity.PayDiscountEntity;
 import xyz.yygqzzk.domain.trade.model.entity.UserEntity;
-import xyz.yygqzzk.domain.trade.service.ITradeOrderService;
+import xyz.yygqzzk.domain.trade.service.ITradeLockOrderService;
 
 import javax.annotation.Resource;
 
@@ -26,13 +26,13 @@ import javax.annotation.Resource;
 @Slf4j
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class ITradeOrderServiceTest {
+public class ITradeLockOrderServiceTest {
 
     @Resource
     private IIndexGroupBuyMarketService indexGroupBuyMarketService;
 
     @Resource
-    private ITradeOrderService tradeOrderService;
+    private ITradeLockOrderService tradeOrderService;
 
     @Test
     public void test_lockMarketPayOrder() throws Exception {

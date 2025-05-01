@@ -19,6 +19,9 @@ import java.math.BigDecimal;
 @AllArgsConstructor
 @NoArgsConstructor
 public class MarketPayOrderEntity {
+
+    /* 拼团组队Id */
+    private String teamId;
     /** 预购订单ID */
     private String orderId;
     /** 折扣金额 */

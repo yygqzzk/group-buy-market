@@ -12,7 +12,7 @@ import xyz.yygqzzk.domain.trade.model.valobj.GroupBuyProgressVO;
  * @description 交易订单服务接口
  * @since 2025/4/29
  */
-public interface ITradeOrderService {
+public interface ITradeLockOrderService {
 
 
     /* 锁单 */

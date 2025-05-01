@@ -1,11 +1,12 @@
-package xyz.yygqzzk.domain.trade.service;
+package xyz.yygqzzk.domain.trade.service.lock;
 
 import org.springframework.stereotype.Service;
 import xyz.yygqzzk.domain.trade.adapter.repository.ITradeRepository;
 import xyz.yygqzzk.domain.trade.model.aggregate.GroupBuyOrderAggregate;
 import xyz.yygqzzk.domain.trade.model.entity.*;
 import xyz.yygqzzk.domain.trade.model.valobj.GroupBuyProgressVO;
-import xyz.yygqzzk.domain.trade.service.factory.TradeRuleFilterFactory;
+import xyz.yygqzzk.domain.trade.service.ITradeLockOrderService;
+import xyz.yygqzzk.domain.trade.service.lock.factory.TradeRuleFilterFactory;
 import xyz.yygqzzk.types.design.framework.link.model2.chain.BusinessLinkedList;
 
 import javax.annotation.Resource;
@@ -17,7 +18,7 @@ import javax.annotation.Resource;
  * @since 2025/4/29
  */
 @Service
-public class TradeOrderServiceImpl implements ITradeOrderService {
+public class TradeLockOrderServiceImpl implements ITradeLockOrderService {
     @Resource
     private ITradeRepository repository;
 

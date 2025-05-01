@@ -34,6 +34,11 @@
                   #{deductionPrice}, #{status}, #{outTradeNo}, #{bizId}, now(), now()
               )
     </insert>
+    <update id="updateOrderStatus2COMPLETE">
+        update group_buy_order_list
+        set status = 1, update_time = now()
+        where user_id = #{userId} and out_trade_no = #{outTradeNo}
+    </update>
 
     <select id="queryGroupBuyOrderRecordByOutTradeNo" parameterType="xyz.yygqzzk.infrastructure.dao.po.GroupBuyOrderList" resultMap="dataMap">
         select user_id, team_id, order_id, activity_id, start_time,
@@ -46,6 +51,11 @@
         from group_buy_order_list
         where activity_id = #{activityId} and user_id = #{userId}
 
+    </select>
+    <select id="queryGroupBuyCompleteOrderOutTradeNOListByTeamId" resultType="java.lang.String">
+        select out_trade_no
+        from group_buy_order_list
+        where team_id = #{teamId} and status = 1
     </select>
 
 </mapper>

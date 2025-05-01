@@ -2,6 +2,7 @@ package xyz.yygqzzk.test.trigger;
 
 import com.alibaba.fastjson2.JSON;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -14,7 +15,7 @@ import xyz.yygqzzk.domain.trade.model.entity.MarketPayOrderEntity;
 import xyz.yygqzzk.domain.trade.model.entity.PayActivityEntity;
 import xyz.yygqzzk.domain.trade.model.entity.PayDiscountEntity;
 import xyz.yygqzzk.domain.trade.model.entity.UserEntity;
-import xyz.yygqzzk.domain.trade.service.ITradeOrderService;
+import xyz.yygqzzk.domain.trade.service.ITradeLockOrderService;
 
 import javax.annotation.Resource;
 
@@ -32,17 +33,18 @@ public class MarketTradeControllerTest {
     private IIndexGroupBuyMarketService indexGroupBuyMarketService;
 
     @Resource
-    private ITradeOrderService tradeOrderService;
+    private ITradeLockOrderService tradeOrderService;
 
     @Test
     public void test_lockMarketPayOrder() throws Exception {
         // 入参信息
         Long activityId = 100123L;
-        String userId = "opq";
+        String userId = "xyz";
         String goodsId = "9890001";
         String source = "s01";
         String channel = "c01";
-        String outTradeNo = "909000098111";
+        String outTradeNo = RandomStringUtils.randomNumeric(12);
+        String teamId = "63061354";
 
         // 1. 获取试算优惠，有【activityId】优先使用
         TrialBalanceEntity trialBalanceEntity = indexGroupBuyMarketService.indexMarketTrial(MarketProductEntity.builder()
@@ -66,7 +68,7 @@ public class MarketTradeControllerTest {
         MarketPayOrderEntity marketPayOrderEntityNew = tradeOrderService.lockMarketPayOrder(
                 UserEntity.builder().userId(userId).build(),
                 PayActivityEntity.builder()
-                        .teamId(null)
+                        .teamId(teamId)
                         .activityId(groupBuyActivityDiscountVO.getActivityId())
                         .activityName(groupBuyActivityDiscountVO.getActivityName())
                         .startTime(groupBuyActivityDiscountVO.getStartTime())

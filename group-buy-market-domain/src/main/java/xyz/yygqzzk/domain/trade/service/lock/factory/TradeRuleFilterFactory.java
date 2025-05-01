@@ -1,4 +1,4 @@
-package xyz.yygqzzk.domain.trade.service.factory;
+package xyz.yygqzzk.domain.trade.service.lock.factory;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -10,12 +10,10 @@ import org.springframework.stereotype.Service;
 import xyz.yygqzzk.domain.trade.model.entity.GroupBuyActivityEntity;
 import xyz.yygqzzk.domain.trade.model.entity.TradeRuleCommandEntity;
 import xyz.yygqzzk.domain.trade.model.entity.TradeRuleFilterEntity;
-import xyz.yygqzzk.domain.trade.service.filter.ActivityUsabilityRuleFilter;
-import xyz.yygqzzk.domain.trade.service.filter.UserTakeLimitRuleFilter;
+import xyz.yygqzzk.domain.trade.service.lock.filter.ActivityUsabilityRuleFilter;
+import xyz.yygqzzk.domain.trade.service.lock.filter.UserTakeLimitRuleFilter;
 import xyz.yygqzzk.types.design.framework.link.model2.LinkArmory;
 import xyz.yygqzzk.types.design.framework.link.model2.chain.BusinessLinkedList;
-
-import javax.annotation.Resource;
 
 /**
  * @author zzk
