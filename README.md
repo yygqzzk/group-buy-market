@@ -39,3 +39,7 @@
 ## 责任链过滤
 
 ![image-20250501104211982](https://yygqzzk.oss-cn-wuhan-lr.aliyuncs.com/typora-images/202505011042014.png)
+
+# 拼团回调通知
+
+![image-20250502104301604](https://yygqzzk.oss-cn-wuhan-lr.aliyuncs.com/typora-images/202505021043774.png)

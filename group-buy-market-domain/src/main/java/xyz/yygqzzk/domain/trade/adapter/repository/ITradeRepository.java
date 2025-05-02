@@ -5,7 +5,10 @@ import xyz.yygqzzk.domain.trade.model.aggregate.GroupBuyTeamSettlementAggregate;
 import xyz.yygqzzk.domain.trade.model.entity.GroupBuyActivityEntity;
 import xyz.yygqzzk.domain.trade.model.entity.GroupBuyTeamEntity;
 import xyz.yygqzzk.domain.trade.model.entity.MarketPayOrderEntity;
+import xyz.yygqzzk.domain.trade.model.entity.NotifyTaskEntity;
 import xyz.yygqzzk.domain.trade.model.valobj.GroupBuyProgressVO;
+
+import java.util.List;
 
 /**
  * @author zzk
@@ -27,7 +30,20 @@ public interface ITradeRepository {
 
     GroupBuyTeamEntity queryGroupBuyTeamByTeamId(String teamId);
 
-    void settlementMarketPayOrder(GroupBuyTeamSettlementAggregate groupBuyTeamSettlementAggregate);
+    boolean settlementMarketPayOrder(GroupBuyTeamSettlementAggregate groupBuyTeamSettlementAggregate);
 
     boolean isSCBlackIntercept(String source, String channel);
+
+    // 查询所有未执行回调通知的回调任务
+    List<NotifyTaskEntity> queryUnExecutedNotifyTaskList();
+
+    // 查询指定team的回调任务
+    List<NotifyTaskEntity> queryUnExecutedNotifyTaskList(String teamId);
+
+    /* 更新notify_task数据库状态 */
+    int updateNotifyTaskStatusSuccess(String teamId);
+
+    int updateNotifyTaskStatusError(String teamId);
+
+    int updateNotifyTaskStatusRetry(String teamId);
 }

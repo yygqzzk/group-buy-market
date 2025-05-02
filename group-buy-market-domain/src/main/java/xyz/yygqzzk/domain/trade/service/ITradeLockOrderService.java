@@ -23,4 +23,8 @@ public interface ITradeLockOrderService {
 
     /* 查询用户锁单的对应订单信息 */
     MarketPayOrderEntity queryNoPayMarketPayOrderByOutTradeNo(String userId, String outTradeNo);
+
+
+
+
 }

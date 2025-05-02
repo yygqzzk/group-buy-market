@@ -39,13 +39,13 @@ public class MarketTradeControllerTest {
     public void test_lockMarketPayOrder() throws Exception {
         // 入参信息
         Long activityId = 100123L;
-        String userId = "zzk";
+        String userId = "yygqzzk";
         String goodsId = "9890001";
-        String source = "s02";
-        String channel = "c02";
+        String source = "s01";
+        String channel = "c01";
         String outTradeNo = RandomStringUtils.randomNumeric(12);
-        String teamId = null;
-
+        String teamId = "12636382";
+        String notifyUrl = "http://127.0.0.1:8080/api/v1/test/group_buy_notify";
         // 1. 获取试算优惠，有【activityId】优先使用
         TrialBalanceEntity trialBalanceEntity = indexGroupBuyMarketService.indexMarketTrial(MarketProductEntity.builder()
                 .userId(userId)
@@ -85,6 +85,7 @@ public class MarketTradeControllerTest {
                         .deductionPrice(trialBalanceEntity.getDeductionPrice())
                         .payPrice(trialBalanceEntity.getPayPrice())
                         .outTradeNo(outTradeNo)
+                        .notifyUrl(notifyUrl)
                         .build());
 
         log.info("测试结果(New):{}",JSON.toJSONString(marketPayOrderEntityNew));

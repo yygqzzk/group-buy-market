@@ -37,6 +37,8 @@ public class TradeSettlementRuleFilterBackEntity {
     private Date validStartTime;
     /** 拼团结束时间 - 拼团有效时长 */
     private Date validEndTime;
+    /* 回调接口Url */
+    private String notifyUrl;
 
 
 }

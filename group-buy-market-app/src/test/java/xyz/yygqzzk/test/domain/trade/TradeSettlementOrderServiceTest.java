@@ -38,10 +38,10 @@ public class TradeSettlementOrderServiceTest {
     public void testSettlementOrder() throws Exception {
         TradePaySuccessEntity tradePaySuccessEntity = new TradePaySuccessEntity() {
             {
-                setSource("s02");
-                setChannel("c02");
-                setUserId("zzk");
-                setOutTradeNo("265315731514");
+                setSource("s01");
+                setChannel("c01");
+                setUserId("yygqzzk");
+                setOutTradeNo("587567475369");
                 setOutTradeTime(new Date());
             }
         };
