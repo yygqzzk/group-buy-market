@@ -44,15 +44,15 @@ public class MarketNode extends AbstractGroupBuyMarketSupport<MarketProductEntit
     protected void multiThread(MarketProductEntity requestParameter, DefaultActivityStrategyFactory.DynamicContext dynamicContext) throws ExecutionException, InterruptedException, TimeoutException {
         // 异步查询活动配置
         QueryGroupBuyActivityDiscountVOThreadTask queryGroupBuyActivityDiscountVOThreadTask = new QueryGroupBuyActivityDiscountVOThreadTask(requestParameter.getSource(), requestParameter.getChannel(), requestParameter.getGoodsId(), activityRepository);
-
-
         FutureTask<GroupBuyActivityDiscountVO> groupBuyActivityDiscountVOFutureTask = new FutureTask<>(queryGroupBuyActivityDiscountVOThreadTask);
         threadPoolExecutor.execute(groupBuyActivityDiscountVOFutureTask);
+
+
         // 异步查询商品信息 - 在实际生产中，商品有同步库或者调用接口查询。这里暂时使用DB方式查询。
         QuerySkuFromDBThreadTask querySkuFromDBThreadTask = new QuerySkuFromDBThreadTask(requestParameter.getGoodsId(), activityRepository);
         FutureTask<SkuVO> skuVOFutureTask = new FutureTask<>(querySkuFromDBThreadTask);
-
         threadPoolExecutor.execute(skuVOFutureTask);
+
 
         // 写入上下文 - 对于一些复杂场景，获取数据的操作，有时候会在下N个节点获取，这样前置查询数据，可以提高接口响应效率
         dynamicContext.setSkuVO(skuVOFutureTask.get(timeout, TimeUnit.MINUTES));

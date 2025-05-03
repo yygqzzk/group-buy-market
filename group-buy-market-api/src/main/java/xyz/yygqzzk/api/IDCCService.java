@@ -1,4 +1,6 @@
-package xyz.yygqzzk.api.response;
+package xyz.yygqzzk.api;
+
+import xyz.yygqzzk.api.response.Response;
 
 /**
  * @author zzk

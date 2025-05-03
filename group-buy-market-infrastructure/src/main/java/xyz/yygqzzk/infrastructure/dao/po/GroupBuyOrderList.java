@@ -1,9 +1,7 @@
 package xyz.yygqzzk.infrastructure.dao.po;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
+import xyz.yygqzzk.infrastructure.dao.po.base.Page;
 
 import java.math.BigDecimal;
 import java.util.Date;
@@ -14,12 +12,12 @@ import java.util.Date;
  * @description 用户拼单明细
  * @since 2025/4/29
  */
-
+@EqualsAndHashCode(callSuper = true)
 @Data
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class GroupBuyOrderList {
+public class GroupBuyOrderList extends Page {
     /** 自增ID */
     private Long id;
     /** 用户ID */

@@ -2,6 +2,8 @@ package xyz.yygqzzk.api;
 
 import xyz.yygqzzk.api.dto.LockMarketPayOrderRequestDTO;
 import xyz.yygqzzk.api.dto.LockMarketPayOrderResponseDTO;
+import xyz.yygqzzk.api.dto.SettlementMarketPayOrderRequestDTO;
+import xyz.yygqzzk.api.dto.SettlementMarketPayOrderResponseDTO;
 import xyz.yygqzzk.api.response.Response;
 
 /**
@@ -13,5 +15,8 @@ import xyz.yygqzzk.api.response.Response;
 public interface IMarketTradeService {
 
     Response<LockMarketPayOrderResponseDTO> lockMarketPayOrder(LockMarketPayOrderRequestDTO lockMarketPayOrderRequestDTO);
+
+
+    Response<SettlementMarketPayOrderResponseDTO> settlementMarketPayOrder(SettlementMarketPayOrderRequestDTO settlementMarketPayOrderRequestDTO);
 
 }

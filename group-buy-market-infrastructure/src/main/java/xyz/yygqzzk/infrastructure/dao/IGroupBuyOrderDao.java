@@ -3,6 +3,9 @@ package xyz.yygqzzk.infrastructure.dao;
 import org.apache.ibatis.annotations.Mapper;
 import xyz.yygqzzk.infrastructure.dao.po.GroupBuyOrder;
 
+import java.util.List;
+import java.util.Set;
+
 /**
  * @author zzk
  * @version 1.0
@@ -24,4 +27,12 @@ public interface IGroupBuyOrderDao {
     int updateAddCompleteCount(String teamId);
 
     int updateOrderStatus2COMPLETE(String teamId);
+
+    List<GroupBuyOrder> queryGroupBuyProgressByTeamIds(Set<String> teamIds);
+
+    Integer queryAllTeamCount(Set<String> teamIds);
+
+    Integer queryAllTeamCompleteCount(Set<String> teamIds);
+
+    Integer queryAllUserCount(Set<String> teamIds);
 }

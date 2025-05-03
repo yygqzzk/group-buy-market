@@ -2,9 +2,8 @@ package xyz.yygqzzk.trigger.http;
 
 import lombok.extern.slf4j.Slf4j;
 import org.redisson.api.RTopic;
-import org.redisson.api.RedissonClient;
 import org.springframework.web.bind.annotation.*;
-import xyz.yygqzzk.api.response.IDCCService;
+import xyz.yygqzzk.api.IDCCService;
 import xyz.yygqzzk.api.response.Response;
 import xyz.yygqzzk.types.common.Constants;
 import xyz.yygqzzk.types.enums.ResponseCode;
