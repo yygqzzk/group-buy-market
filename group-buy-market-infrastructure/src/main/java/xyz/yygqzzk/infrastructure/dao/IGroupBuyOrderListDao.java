@@ -1,6 +1,7 @@
 package xyz.yygqzzk.infrastructure.dao;
 
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 import xyz.yygqzzk.infrastructure.dao.po.GroupBuyOrderList;
 
 import java.util.List;
@@ -19,7 +20,7 @@ public interface IGroupBuyOrderListDao {
     GroupBuyOrderList queryGroupBuyOrderRecordByOutTradeNo(GroupBuyOrderList groupBuyOrderListReq);
 
 
-    Integer queryOrderCountBy(Long activityId, String userId);
+    Integer queryOrderCountBy(@Param("activityId") Long activityId, String userId);
 
     Integer updateOrderStatus2COMPLETE(GroupBuyOrderList groupBuyOrderListReq);
 

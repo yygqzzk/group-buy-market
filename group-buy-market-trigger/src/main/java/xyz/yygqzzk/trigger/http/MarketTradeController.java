@@ -129,12 +129,13 @@ public class MarketTradeController implements IMarketTradeService {
                             .notifyUrl(notifyUrl)
                             .build());
 
-            log.info("交易锁单记录(新):{} marketPayOrderEntity:{}", userId, JSON.toJSONString(marketPayOrderEntity));
+            log.info("交易锁单记录(新):{} marketPayOrderEntity:{}", userId, JSON.toJSONString(marketPayOrderRes));
 
             // 返回结果
-            return Response.<LockMarketPayOrderResponseDTO>builder().code(ResponseCode.SUCCESS.getCode()).info(ResponseCode.SUCCESS.getInfo()).data(LockMarketPayOrderResponseDTO.builder().orderId(marketPayOrderRes.getOrderId()).deductionPrice(marketPayOrderRes.getDeductionPrice()).tradeOrderStatus(marketPayOrderRes.getTradeOrderStatusEnumVO().getCode()).build()).build();
+            return Response.<LockMarketPayOrderResponseDTO>builder().code(ResponseCode.SUCCESS.getCode()).info(ResponseCode.SUCCESS.getInfo()).data(LockMarketPayOrderResponseDTO.builder().orderId(marketPayOrderRes.getOrderId())
+                    .originalPrice(marketPayOrderRes.getOriginalPrice()).deductionPrice(marketPayOrderRes.getDeductionPrice()).payPrice(marketPayOrderRes.getPayPrice()).tradeOrderStatus(marketPayOrderRes.getTradeOrderStatusEnumVO().getCode()).build()).build();
         } catch (AppException e) {
-            log.error("营销交易锁单业务异常:{} LockMarketPayOrderRequestDTO:{}", lockMarketPayOrderRequestDTO.getUserId(), JSON.toJSONString(lockMarketPayOrderRequestDTO), e);
+            log.error("营销交易锁单业务异常:{} userId: {}", e.getInfo(), lockMarketPayOrderRequestDTO.getUserId());
             return Response.<LockMarketPayOrderResponseDTO>builder().code(e.getCode()).info(e.getInfo()).build();
         } catch (Exception e) {
             log.error("营销交易锁单服务失败:{} LockMarketPayOrderRequestDTO:{}", lockMarketPayOrderRequestDTO.getUserId(), JSON.toJSONString(lockMarketPayOrderRequestDTO), e);
